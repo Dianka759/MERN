@@ -10,7 +10,7 @@
 class Card {
     constructor(name, cost) {
         this.name = name;
-        this.cost;
+        this.cost = cost;
     }
 }
 
@@ -22,7 +22,13 @@ class Unit extends Card {
     }
 
     attack(target) {
-        target.resilience -= this.power;
+        if (target instanceof Unit) {
+            target.resilience -= this.power;
+        }
+    }
+
+    showStats() {
+        console.log(`name: ${this.name}, cost: ${this.cost}, resilience: ${this.resilience}, power: ${this.power}`);
     }
 }
 
@@ -36,7 +42,12 @@ class Effect extends Card {
 
     play(target) {
         if (target instanceof Unit) {
-            target.stat += this.magnitude;
+            if (this.stat === "resilience") {
+                target.resilience += this.magnitude
+            }
+            if (this.stat === "power") {
+                target.power += this.magnitude
+            }
         } else {
             throw new Error("Target must be a unit!");
         }
@@ -50,7 +61,17 @@ const hardAlgorithm = new Effect('Hard Algorithm', 2, 'resilience', "increase ta
 const unhandledPromiseRejection = new Effect('Unhandled Promise Rejection', 1, 'resilience', "reduce target's resilience by 2", -2);
 const pairProgramming = new Effect('Pair Programming', 3, 'power', "increase target's power by 2", 2);
 
+console.log("------------Before----------")
+redBeltNinja.showStats();
+blackBeltNinja.showStats();
+console.log("----------------------------")
+
 hardAlgorithm.play(redBeltNinja);
 unhandledPromiseRejection.play(redBeltNinja);
 pairProgramming.play(redBeltNinja);
 redBeltNinja.attack(blackBeltNinja);
+
+console.log("------------After----------")
+redBeltNinja.showStats();
+blackBeltNinja.showStats();
+console.log("---------------------------")
