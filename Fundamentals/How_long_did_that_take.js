@@ -16,7 +16,7 @@ Number.prototype.isPrime = function() {
 const { performance } = require('perf_hooks');
 const start = performance.now();
 let primeCount = 0;
-let num = 2; // for math reasons, 1 is considered prime
+let num = 2; 
 while (primeCount < 1e4)  {    
     if (num.isPrime()) {
         primeCount++;
