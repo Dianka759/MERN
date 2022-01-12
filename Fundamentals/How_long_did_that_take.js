@@ -1,4 +1,14 @@
 /////////////////////////// Prime Finder ///////////////////////////////////
+// Number.prototype.isPrime = function() {    
+//     var stopper = Math.sqrt(this)
+//     for( let i=2; i<stopper; i++) {
+//         if( this % i === 0 ) {
+//             return false;
+//         }
+//     }
+//     return true;
+// }
+/////////////////////////// Prime Finder ///////////////////////////////////
 Number.prototype.isPrime = function() {    
     for( let i=2; i<this;) {
         if( this % i === 0 ) {
