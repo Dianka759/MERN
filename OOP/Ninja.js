@@ -31,12 +31,9 @@ ninja1.showStats();
 ////////////////// ADDED SENSEI CLASS ///////////////////////
 
 class Sensei extends Ninja {
-    constructor(name, wisdom = 10){
-        super(name);
-        this.health = 200;
-        this.speed = 10;
-        this.strength = 10;
-        this.wisdom = wisdom;
+    constructor(name){
+        super(name, 200, 10, 10);
+        this.wisdom = 10;
     }
 
     speakWisdom() {
