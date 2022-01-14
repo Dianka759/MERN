@@ -7,11 +7,15 @@ import ClassCounter from './components/ClassCounter';
 import FunctionalCounter from './components/FunctionalCounter';
 import TraditionalForm from './components/TraditionalForm';
 import SimpleForm from './components/SimpleForm';
+import { useState } from 'react';
 
 function App() {
+  const [words, setWords] = useState(["hash browns", "home fries", "tater wedges", "yucca", "scalloped potatoes"])
+
+
   return (
     <div className="App">
-     {/* <h1>HIELLO</h1> 
+      {/* <h1>HIELLO</h1> 
       <Box text="Heyyyya ittaa meeeeya" dark={true} />
       <Box text="Heyaa itttaa youuuuaaaa" dark={false} />
       <Box text="yes."  dark={true} />
@@ -46,7 +50,15 @@ function App() {
 
 
       {/* <TraditionalForm/> */}
-      <SimpleForm />
+      {/* <SimpleForm /> */}
+
+
+      {
+        words.map((str) => {
+          return <marquee><h1>{str} are delishhh!</h1></marquee>
+        })
+      }
+
     </div>
   );
 }
