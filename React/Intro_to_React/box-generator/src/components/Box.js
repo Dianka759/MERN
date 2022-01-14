@@ -16,9 +16,9 @@ const Box = (props) => {
 
     const submitHandler = e => {
         e.preventDefault();
-        const newColor = { 
+        const newColor = {
             color: color,
-            boxSize:  boxSize 
+            boxSize: boxSize
         };
 
         setAllBoxes([...allBoxes, newColor]);
@@ -30,14 +30,23 @@ const Box = (props) => {
         <>
             <form onSubmit={submitHandler} className='mt-4'>
                 <label htmlFor="color">Color </label>
-                <input type="text" name="color" value={color} onChange={colorHandler} className='me-4'/>
-
+                <input type="text" name="color" value={color} onChange={colorHandler} className='me-4' />
                 <label htmlFor="boxSize">Box size (px) </label>
                 <input type="number" name="boxSize" value={boxSize} onChange={sizeHandler}
                 />
                 <button type="submit" >Add</button>
             </form>
-            <Display allBoxes={allBoxes} />
+
+            <div style={{ display: 'flex', flexWrap: 'wrap' }}>
+                {allBoxes.map((color, i) => {
+                    return (
+                        <div key={i} style={{ backgroundColor: color.color, height: color.boxSize + "px", width: color.boxSize + "px", margin: '4px' }}>
+                            Color: <p>{color.color}</p>
+                            Size: {color.boxSize + "px"}
+                        </div>
+                    )
+                })}
+            </div>
         </>
     );
 }
