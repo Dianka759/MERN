@@ -9,6 +9,10 @@ function App() {
         <PersonCard lastName={"Smith"} firstName={"John"} age={88} hairColor={"Brown"} />
         <PersonCard lastName={"Fillmore"} firstName={"Millard"} age={50} hairColor={"Brown"} />
         <PersonCard lastName={"Smith"} firstName={"Maria"} age={62} hairColor={"Brown"} />
+        
+        {/* Other way
+        <PersonCard lastName="Smith" firstName="Maria" age={62} hairColor="Brown" /> */}
+
     </div>
   );
 }

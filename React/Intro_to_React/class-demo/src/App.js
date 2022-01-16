@@ -8,10 +8,43 @@ import FunctionalCounter from './components/FunctionalCounter';
 import TraditionalForm from './components/TraditionalForm';
 import SimpleForm from './components/SimpleForm';
 import { useState } from 'react';
+import Step from './components/Step';
 
 function App() {
-  const [words, setWords] = useState(["hash browns", "home fries", "tater wedges", "yucca", "scalloped potatoes"])
+  const [steps, setSteps] = useState([]);
+  const [direction, setDirection] = useState("left");
+  const [text, setText] = useState("");
 
+  const displaySteps = (step, i) => {
+    return <li key={i}>Direction: {step.direction} Text: {step.text}</li>
+  }
+
+  const onSubmitHandler = (event) => {
+    event.preventDefault();
+
+    const newStep = {
+      direction,
+      text
+    };
+
+    setSteps([...steps, newStep])
+  }
+
+  const onDeleteHandler = (index) => {
+    console.log(`trying to delete item #${index}`);
+    // const newArray =
+    //   [...steps];
+    // newArray.splice(index, 1);
+    
+    // newArray[index].text = "edited";
+
+    const newArray = [
+      ...steps.slice(0, index),
+      ...steps.slice(index+1)
+    ]
+
+    setSteps(newArray);
+  }
 
   return (
     <div className="App">
@@ -52,10 +85,37 @@ function App() {
       {/* <TraditionalForm/> */}
       {/* <SimpleForm /> */}
 
-
+      {/* 
       {
         words.map((str) => {
           return <marquee><h1>{str} are delishhh!</h1></marquee>
+        })
+      } */}
+
+
+      <div className='App w-50 mx-auto'>
+        <form onSubmit={onSubmitHandler}>
+          <div className='row'>
+            <div className='col'>
+              <select className='form-select' onChange={(event) => { setDirection(event.target.value) }}>
+                <option value="left">left</option>
+                <option value="right">right</option>
+                <option value="forward">forward</option>
+                <option value="backwards">backwards</option>
+              </select>
+            </div>
+            <div className='col'>
+              <input type="text" placeholder='directions here...' className='form-control' onChange={(event) => { setText(event.target.value) }} />
+            </div>
+          </div>
+          <input type="submit" className='btn btn-success mb-4'></input>
+        </form>
+      </div>
+
+      {
+        steps.map((step, i) => {
+          return <Step key={i} index={i} text={step.text} direction={step.direction}
+            onDeleteHandler={onDeleteHandler} />
         })
       }
 

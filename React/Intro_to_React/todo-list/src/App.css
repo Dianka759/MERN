@@ -1,0 +1,22 @@
+*{
+  background-color: rgb(31, 31, 31);
+  color: whitesmoke;
+}
+
+.App {
+  text-align: center;
+}
+
+input{
+  vertical-align: middle;
+  margin: 5px;
+  border: 1px solid rgb(174, 0, 255);
+}
+
+.w-50 {
+  margin: auto;
+}
+
+span {
+  color: rgb(174, 0, 255);
+}
