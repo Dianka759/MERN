@@ -9,7 +9,7 @@ import Color from './components/Color'
 
 function App() {
   return (
-    <div className='text-center mt-3 p-4 border border-danger'>
+    <div className='text-center mt-3 border border-danger'>
       <BrowserRouter>
         <Switch>
           <Route path="/" exact component={Home} />
