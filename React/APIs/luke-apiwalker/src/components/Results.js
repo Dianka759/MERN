@@ -41,7 +41,7 @@ const Results = (props) => {
                 {info.length <= 0 ?
                     <div>
                         <h1>404</h1>
-                        <h3>~ These aren't the droids you're looking for 🌌🔫 ~</h3>
+                        <h3>~ These aren't the droids you're looking for ⭐🧔⚔️ ~</h3>
                         <img src="https://www.scotsman.com/webimg/b25lY21zOjAwZTZhNDFhLTU1YzItNDZjOS05ZGJiLWVlNTI5MDAxYjhkMjoxYzM5MjNjMy1kNTdmLTQ0NDktOTI3Mi1jYjFmYTRiZDAyOTE=.jpg?width=2048&enable=upscale" alt="bi wan kennobi idk I never saw the movie" style={{ height: "400px" }} />
                     </div>
 

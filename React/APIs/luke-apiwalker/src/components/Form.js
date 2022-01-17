@@ -33,7 +33,7 @@ const Form = (props) => {
     })
 
     return (
-        <div className="container mt-5 p-3">
+        <div className="container mt-2 p-3">
             <div className="form-group p-3 w-75 mx-auto">
                 <form onSubmit={submitHandler} className="mx-auto w-75">
                     <label><b>Search for: </b></label>
