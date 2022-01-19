@@ -30,7 +30,7 @@ const Form = (props) => {
             .catch(err => {
                 setFormInfo("")
             })
-    })
+    },[])
 
     return (
         <div className="container mt-2 p-3">

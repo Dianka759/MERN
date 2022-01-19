@@ -13,7 +13,8 @@ import Home from './views/Home';
 import Second from './views/Second';
 import Form from './views/Form';
 import { BrowserRouter, Switch, Route, Link } from 'react-router-dom';
-
+import Pokemon from './views/Pokemon';
+import Search from './components/Search';
 
 function App() {
   const [steps, setSteps] = useState([]);
@@ -126,7 +127,7 @@ function App() {
 
 
       {/* //////////////ROUTING/////////////////////////// */}
-      <BrowserRouter>
+      {/* <BrowserRouter>
       <div id="header" className='d-flex justify-content-between w-50 mx-auto border p-2'>
       <Link to="/">Main</Link>
       <Link to="/form">Form</Link>
@@ -141,6 +142,20 @@ function App() {
           </Route>
           <Route exact path='/form'>
             <Form />
+          </Route>
+        </Switch>
+      </BrowserRouter> */}
+
+
+      {/* ///////////////////////////////////////////////////// */}
+      <BrowserRouter>
+      <Search />
+        <Switch>
+          <Route exact path='/'>
+            <Home />
+          </Route>
+          <Route exact path='/pokemon/:name'>
+            <Pokemon />
           </Route>
         </Switch>
       </BrowserRouter>

@@ -5,8 +5,8 @@ import { Link } from 'react-router-dom';
 
 const Results = (props) => {
     const [info, setInfo] = useState([{}]);
-    const { category, id } = useParams();
     const [homeWorld, setHomeWorld] = useState("");
+    const { category, id } = useParams();
 
     useEffect(() => {
         axios.get(`https://swapi.dev/api/${category}/${id}`)
@@ -18,7 +18,7 @@ const Results = (props) => {
             })
         axios.get(`${info.homeworld}`)
             .then(response => setHomeWorld(response.data))
-    }, [category, id, homeWorld])
+    }, [category, id, info.homeworld])
 
     // function grabbing the number of the planet to put in the URL from the url provided by info.homeworld
     const planetID = (url) => {
