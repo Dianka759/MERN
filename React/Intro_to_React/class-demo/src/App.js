@@ -1,5 +1,6 @@
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import { useState } from 'react';
 import Box from './components/Box';
 import Counter from './components/Counter';
 import Row from './components/Row';
@@ -7,8 +8,12 @@ import ClassCounter from './components/ClassCounter';
 import FunctionalCounter from './components/FunctionalCounter';
 import TraditionalForm from './components/TraditionalForm';
 import SimpleForm from './components/SimpleForm';
-import { useState } from 'react';
 import Step from './components/Step';
+import Home from './views/Home';
+import Second from './views/Second';
+import Form from './views/Form';
+import { BrowserRouter, Switch, Route, Link } from 'react-router-dom';
+
 
 function App() {
   const [steps, setSteps] = useState([]);
@@ -35,12 +40,12 @@ function App() {
     // const newArray =
     //   [...steps];
     // newArray.splice(index, 1);
-    
+
     // newArray[index].text = "edited";
 
     const newArray = [
       ...steps.slice(0, index),
-      ...steps.slice(index+1)
+      ...steps.slice(index + 1)
     ]
 
     setSteps(newArray);
@@ -92,7 +97,7 @@ function App() {
         })
       } */}
 
-
+      {/* 
       <div className='App w-50 mx-auto'>
         <form onSubmit={onSubmitHandler}>
           <div className='row'>
@@ -117,8 +122,28 @@ function App() {
           return <Step key={i} index={i} text={step.text} direction={step.direction}
             onDeleteHandler={onDeleteHandler} />
         })
-      }
+      } */}
 
+
+      {/* //////////////ROUTING/////////////////////////// */}
+      <BrowserRouter>
+      <div id="header" className='d-flex justify-content-between w-50 mx-auto border p-2'>
+      <Link to="/">Main</Link>
+      <Link to="/form">Form</Link>
+      <Link to="/second/bigpig/hotpink">BIGPIG</Link>
+      </div>
+        <Switch>
+          <Route exact path='/'>
+            <Home />
+          </Route>
+          <Route exact path='/second/:word/:color'>
+            <Second />
+          </Route>
+          <Route exact path='/form'>
+            <Form />
+          </Route>
+        </Switch>
+      </BrowserRouter>
     </div>
   );
 }
