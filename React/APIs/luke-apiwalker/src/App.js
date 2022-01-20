@@ -14,8 +14,8 @@ function App() {
         <Switch>
           <Route path="/" exact component={Form} />
           <Route path='/:category/:id'>
-            <Form></Form>
-            <Results></Results>
+            <Form/>
+            <Results/>
           </Route>/
           <Route path="/"
             render={() => (<div className='mt-5 fs-3 fw-bold text-danger'> Invalid URL.</div>)}
