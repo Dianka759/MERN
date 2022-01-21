@@ -9,6 +9,7 @@ const Home = () => {
     return (
         <div>
             <div style={style}>Welcome</div>
+            <div>(type "/islandboy" for a surprise 🏝️)</div>
         </div>
     )
 }
