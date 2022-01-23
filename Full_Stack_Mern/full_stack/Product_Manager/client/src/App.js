@@ -6,6 +6,7 @@ import {
   Route
 } from "react-router-dom";
 import Detail from './views/Detail';
+import Update from './views/Update';
 import ProductForm from './components/ProductForm';
 import ProductList from './components/ProductList'
 
@@ -19,10 +20,13 @@ function App() {
         </Route>
         <Route exact path="/products">
           <ProductForm />
-          <ProductList />
+          <ProductList/>
         </Route>
         <Route path="/products/:id">
           <Detail />
+        </Route>
+        <Route path="/products/:id/edit">
+          <Update />
         </Route>
       </div>
     </BrowserRouter>
