@@ -6,11 +6,17 @@ module.exports.index = (request, response) => {
     });
 }
 
-module.exports.allProducts = (req, res) => {
-    Product.find()
-        .then(allZeProducts => res.json({ products: allZeProducts }))
-        .catch(err => res.json({ message: "Something went wrong", error: err }));
-};
+module.exports.allProducts = (request, response) => {
+    Product.find({})
+        .then(products => response.json(products))
+        .catch(err => response.json(err))
+}
+
+module.exports.getProduct = (request, response) => {
+    Product.findOne({_id:request.params.id})
+        .then(product => response.json(product))
+        .catch(err => response.json(err))
+}
 
 module.exports.createProduct = (request, response) => {
     const { title, price, description } = request.body;

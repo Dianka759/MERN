@@ -23,6 +23,7 @@ export default () => {
     
     //onChange to update title and price
     return (
+        <div className='mt-5 p-3 w-25 mx-auto d-flex justify-content-center border border-danger text-center'>
         <form onSubmit={onSubmitHandler}>
             <p>
                 <label>Title</label><br/>
@@ -36,7 +37,8 @@ export default () => {
                 <label>Description</label><br/>
                 <input type="text" onChange={(e)=>setDescription(e.target.value)} value={description}/>
             </p>
-            <input type="submit"/>
+            <input type="submit" className='btn btn-outline-success'/>
         </form>
+        </div>
     )
 }
