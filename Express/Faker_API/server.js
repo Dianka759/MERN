@@ -2,6 +2,9 @@ const express = require('express')
 const app = express()
 const faker = require('@faker-js/faker');
 
+app.use(express.json());
+app.use(express.urlencoded({extended:true}));
+
 // Creating a user
 class User {
     constructor() {
