@@ -1,29 +1,21 @@
 import React, { useState } from 'react'
 import axios from 'axios';
-export default () => {
 
+const ProductForm = (props) => {
     //keep track of what is being typed via useState hook
-    const [title, setTitle] = useState("");
-    const [price, setPrice] = useState("");
-    const [description, setDescription] = useState("");
+    const { initialTitle, initialPrice,initialDescription, onSubmitProp } = props;
+    const [title, setTitle] = useState(initialTitle);
+    const [price, setPrice] = useState(initialPrice);
+    const [description, setDescription] = useState(initialDescription);
 
-    //handler when the form is submitted
     const onSubmitHandler = e => {
-        //prevent default behavior of the submit
         e.preventDefault();
-        //make a post request to create a new product
-        axios.post('http://localhost:8000/api/products/new', {
-            title,
-            price,
-            description
-        })
-            .then(res => console.log(res))
-            .catch(err => console.log(err))
+        onSubmitProp({title, price, description})
     }
 
-    //onChange to update title and price
+    //onChange to update title and price and description
     return (
-        <div className='mt-5 p-3 w-25 mx-auto d-flex justify-content-center border border-danger text-center'>
+        <div className='mt-5 p-3 w-50 mx-auto mx-auto border border-danger text-center'>
             <form onSubmit={onSubmitHandler}>
                 <p>
                     <label>Title</label><br />
@@ -42,3 +34,4 @@ export default () => {
         </div>
     )
 }
+export default ProductForm;

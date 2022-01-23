@@ -8,19 +8,15 @@ import {
 import Detail from './views/Detail';
 import Update from './views/Update';
 import ProductForm from './components/ProductForm';
-import ProductList from './components/ProductList'
+import Main from './views/Main';
 
 
 function App() {
   return (
     <BrowserRouter>
       <div className="App">
-      <Route exact path="/">
-          <ProductForm />
-        </Route>
         <Route exact path="/products">
-          <ProductForm />
-          <ProductList/>
+          <Main />
         </Route>
         <Route path="/products/:id">
           <Detail />
