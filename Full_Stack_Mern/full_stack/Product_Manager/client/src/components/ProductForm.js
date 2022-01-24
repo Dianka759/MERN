@@ -1,16 +1,19 @@
 import React, { useState } from 'react'
 import axios from 'axios';
+import { useHistory, useParams } from 'react-router-dom';
 
 const ProductForm = (props) => {
     //keep track of what is being typed via useState hook
-    const { initialTitle, initialPrice,initialDescription, onSubmitProp } = props;
+    const { initialTitle, initialPrice, initialDescription, onSubmitProp} = props;
     const [title, setTitle] = useState(initialTitle);
     const [price, setPrice] = useState(initialPrice);
     const [description, setDescription] = useState(initialDescription);
+    const history = useHistory();
 
     const onSubmitHandler = e => {
         e.preventDefault();
         onSubmitProp({title, price, description})
+        history.push("/products")
     }
 
     //onChange to update title and price and description

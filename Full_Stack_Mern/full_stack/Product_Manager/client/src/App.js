@@ -18,10 +18,10 @@ function App() {
         <Route exact path="/products">
           <Main />
         </Route>
-        <Route path="/products/:id">
+        <Route exact path="/products/:id">
           <Detail />
         </Route>
-        <Route path="/products/:id/edit">
+        <Route exact path="/products/:id/edit">
           <Update />
         </Route>
       </div>

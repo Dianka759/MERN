@@ -10,7 +10,7 @@ const ProductList = (props) => {
         axios.get('http://localhost:8000/api/products')
             .then(res => setProducts(res.data))
             .catch(err => console.error(err));
-    }, []);
+    }, [products]);
 
     const removeFromDom = productId => {
         setProducts(products.filter(product => product._id != productId))
