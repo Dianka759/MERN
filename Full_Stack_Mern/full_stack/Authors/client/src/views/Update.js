@@ -1,42 +1,63 @@
 import React, { useEffect, useState } from 'react'
 import axios from 'axios';
 import { useParams, useHistory, Link } from 'react-router-dom';
-import AuthorForm from '../components/AuthorForm';
+import AuthorForm from './AuthorForm';
 import DeleteButton from '../components/DeleteButton';
+import NotFound from './NotFound';
 
 const Update = (props) => {
 
-    const history = useHistory()
-    const { id } = useParams();
     const [author, setAuthor] = useState();
     const [loaded, setLoaded] = useState(false);
+    const [errors, setErrors] = useState([]);
+    const history = useHistory()
+    const { id } = useParams();
 
     useEffect(() => {
         axios.get('http://localhost:8000/api/authors/' + id)
             .then(res => {
-                setAuthor(res.data);
-                setLoaded(true);
+                if (res.data.name) {
+                    setAuthor("")
+                } else {
+                    setAuthor(res.data);
+                    setLoaded(true);
+                }
             })
+            .catch(err => console.log(err))
     }, []);
 
     const updateAuthor = author => {
         axios.put('http://localhost:8000/api/authors/' + id, author)
-            .then(res => console.log(res));
+        setErrors([])
+        history.push("/authors")
+
+            .catch(err => {
+                const errorResponse = err.response.data.errors; // Get the errors from err.response.data
+                const errorArr = []; // Define a temp error array to push the messages in
+                for (const key of Object.keys(errorResponse)) { // Loop through all errors and get the messages
+                    errorArr.push(errorResponse[key].message)
+                }
+                // Set Errors
+                setErrors(errorArr);
+                // setErrors(err.response.data.errors);
+            })
     }
 
     return (
-        <div className='mx-auto w-50 mt-4 p-2 border border-success text-center '>
-            <h1>Update an Author</h1>
-            {
-                loaded && (
-                    <>
+        <div className='mx-auto  mt-4 p-2 border border-success text-center '>
+            {(!author)  
+            ? <NotFound/>
+            : loaded && (
+                    <> 
+                    <h1>Update an Author</h1>
                         <AuthorForm
                             onSubmitProp={updateAuthor}
                             initialFirstName={author.firstName}
                             initialLastName={author.lastName}
+                            errors = {errors}
                         />
-                        <div className='mt-2'>
-                        <Link to={'/authors'}><button className='btn btn-outline-primary'>All Authors</button></Link>
+                        <div className='mt-4'>
+                            {/* <Link to={'/authors'}><button className='btn btn-outline-primary mx-3'>All Authors</button></Link> */}
                             <DeleteButton authorId={author._id} successCallback={() => history.push("/authors")} />
                         </div>
                     </>
