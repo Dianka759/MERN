@@ -1,45 +1,29 @@
-import React, { useState } from 'react';
+import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import {Route,useHistory} from "react-router-dom";
-import axios from 'axios';
+import { Route, BrowserRouter, Redirect} from "react-router-dom";
 import Update from './views/Update';
-import AuthorForm from './views/AuthorForm';
-import AuthorList from './views/AuthorList';
+import View from './views/View';
+import Create from './views/Create';
 
 function App() {
-  const [errors, setErrors] = useState([]);
-  const history = useHistory();
-
-  const createAuthor = author => {
-    axios.post('http://localhost:8000/api/authors', author)
-      .then(res => {
-        setErrors([])
-        history.push("/authors")
-      })
-      
-      .catch(err => {  
-        const errorResponse = err.response.data.errors; // Get the errors from err.response.data
-        const errorArr = []; // Define a temp error array to push the messages in
-        for (const key of Object.keys(errorResponse)) { // Loop through all errors and get the messages
-          errorArr.push(errorResponse[key].message)
-        }
-        // Set Errors
-        setErrors(errorArr);
-      }) 
-  }
 
   return (
-      <div className="App">
-        <Route exact path="/authors">
-          <AuthorList />
-        </Route>
-        <Route exact path="/authors/new">
-          <AuthorForm onSubmitProp={createAuthor} initialFirstName="" initialLastName="" errors={errors} />
-        </Route>
-        <Route exact path="/authors/:id/edit">
-          <Update />
-        </Route>
-      </div>
+    <div className="App">
+      <BrowserRouter>
+      <Route exact path="/">
+      <Redirect to="/authors" />
+      </Route>
+      <Route exact path="/authors">
+        <View />
+      </Route>
+      <Route exact path="/authors/new">
+        <Create />
+      </Route>
+      <Route exact path="/authors/:id/edit">
+        <Update />
+      </Route>
+      </BrowserRouter>
+    </div>
   );
 }
 

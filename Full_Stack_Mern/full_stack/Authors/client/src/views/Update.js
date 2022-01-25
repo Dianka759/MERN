@@ -1,12 +1,11 @@
 import React, { useEffect, useState } from 'react'
 import axios from 'axios';
 import { useParams, useHistory, Link } from 'react-router-dom';
-import AuthorForm from './AuthorForm';
+import AuthorForm from '../components/AuthorForm';
 import DeleteButton from '../components/DeleteButton';
 import NotFound from './NotFound';
 
 const Update = (props) => {
-
     const [author, setAuthor] = useState();
     const [loaded, setLoaded] = useState(false);
     const [errors, setErrors] = useState([]);
@@ -45,23 +44,24 @@ const Update = (props) => {
 
     return (
         <div className='mx-auto  mt-4 p-2 border border-success text-center '>
-            {(!author)  
-            ? <NotFound/>
-            : loaded && (
-                    <> 
-                    <h1>Update an Author</h1>
-                        <AuthorForm
-                            onSubmitProp={updateAuthor}
-                            initialFirstName={author.firstName}
-                            initialLastName={author.lastName}
-                            errors = {errors}
-                        />
-                        <div className='mt-4'>
-                            {/* <Link to={'/authors'}><button className='btn btn-outline-primary mx-3'>All Authors</button></Link> */}
-                            <DeleteButton authorId={author._id} successCallback={() => history.push("/authors")} />
-                        </div>
-                    </>
-                )
+            {
+                (!author)
+                    ? <NotFound />
+                    : loaded && (
+                        <>
+                            <h1>Update an Author</h1>
+                            <AuthorForm
+                                onSubmitProp={updateAuthor}
+                                initialFirstName={author.firstName}
+                                initialLastName={author.lastName}
+                                errors={errors}
+                            />
+                            <div className='mt-4'>
+                                {/* <Link to={'/authors'}><button className='btn btn-outline-primary mx-3'>All Authors</button></Link> */}
+                                <DeleteButton authorId={author._id} successCallback={() => history.push("/authors")} />
+                            </div>
+                        </>
+                    )
             }
         </div>
     )
