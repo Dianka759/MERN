@@ -23,7 +23,7 @@
 > db.students.find({lucky_number: {$lte: 10}}).pretty()
 
 // Get all students whose lucky number is between 1 and 9 (inclusive)
-> db.students.find({lucky_number: {$gte: 9, $lte: 1}}).pretty()
+> db.students.find({lucky_number: {$gte: 1, $lte: 9}}).pretty()
 
 // Add a field to each student collection called 'interests' that is an ARRAY. It should contain the following entries: 'coding', 'brunch', 'MongoDB'. Do this in ONE operation.
 > db.students.update({},{$set: {"interests": ['coding', 'brunch', 'MongoDB']}}, false, true)
