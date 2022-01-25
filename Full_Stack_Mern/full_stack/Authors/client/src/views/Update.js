@@ -27,13 +27,19 @@ const Update = (props) => {
 
     const updateAuthor = author => {
         axios.put('http://localhost:8000/api/authors/' + id, author)
-        setErrors([])
-        history.push("/authors")
-
+            .then(res => {
+                console.log(res)
+                setErrors([])
+                history.push("/authors")
+            })
             .catch(err => {
-                const errorResponse = err.response.data.errors; // Get the errors from err.response.data
-                const errorArr = []; // Define a temp error array to push the messages in
-                for (const key of Object.keys(errorResponse)) { // Loop through all errors and get the messages
+                console.log(err)
+                // Get the errors from err.response.data
+                const errorResponse = err.response.data.errors; 
+                // Define a temp error array to push the messages in
+                const errorArr = []; 
+                // Loop through all errors and get the messages
+                for (const key of Object.keys(errorResponse)) { 
                     errorArr.push(errorResponse[key].message)
                 }
                 // Set Errors
