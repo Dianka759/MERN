@@ -1,6 +1,8 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { BrowserRouter, Redirect, Route } from 'react-router-dom';
+import 'react-confirm-alert/src/react-confirm-alert.css'; // Import css
 import './App.css';
+
 import View from './views/View';
 import Create from './views/Create';
 import PlayerStatus from './views/PlayerStatus';

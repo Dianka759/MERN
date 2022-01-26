@@ -1,3 +1,7 @@
 .react-confirm-alert-button-group{
   justify-content: space-between;
 }
+
+.react-confirm-alert-body {
+  text-align: center;
+}
