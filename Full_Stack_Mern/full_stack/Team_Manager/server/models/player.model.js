@@ -9,9 +9,9 @@ const PlayerSchema = new mongoose.Schema(
 		},
 		position: String,
 		status: {
-			game1: { type: Number },
-			game2: { type: Number },
-			game3: { type: Number }
+			game1: Number,
+			game2: Number,
+			game3: Number
 		}
 	},
 	{ timestamps: true }
