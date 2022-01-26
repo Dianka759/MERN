@@ -18,7 +18,7 @@ const AuthorList = (props) => {
             });
     }, [authors]);
 
-    const removeFromDom = authorId => {
+    const removeFromDom = (authorId) => {
         setAuthors(authors.filter(author => author._id !== authorId))
     }
 
@@ -45,7 +45,7 @@ const AuthorList = (props) => {
                                         <th scope="row"><Link to={"/authors/" + author._id + "/edit"} className='mx-2 btn btn-outline-warning'>
                                             Edit
                                         </Link>
-                                            <DeleteButton className='ms-2' authorId={author._id} successCallback={() => removeFromDom(author._id)} />
+                                            <DeleteButton className='ms-2' authorId={author._id} firstName={author.firstName} lastName={author.lastName} successCallback={() => removeFromDom(author._id)} />
                                         </th>
                                     </tr>
                                 </tbody>
