@@ -19,9 +19,9 @@ const PlayerForm = (props) => {
         }
     }
 
-    const allValid = (input) => {
-        return lengthValidator(input)
-    }
+    // const allValid = (input) => {
+    //     return lengthValidator(input)
+    // }
 
     return (
         <div className='p-3 w-50 mx-auto mx-auto border border-danger text-center'>
@@ -37,7 +37,7 @@ const PlayerForm = (props) => {
                     <input type="text" onChange={(e) => setPosition(e.target.value)} value={position} placeholder='Optional...' />
                 </p>
 
-                {allValid(name) 
+                {lengthValidator(name) 
                 ? <input type="submit" className='btn btn-lg btn-success'/>
                 : <input type="submit" className='btn btn-lg btn-success' disabled/>}
 

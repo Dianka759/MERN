@@ -25,19 +25,17 @@ const View = (props) => {
             message: ('Are you sure you want to delete'),
             buttons: [
                 {
-                    label: 'Yes',
+                    label: 'Yasss',
                     onClick: () => {
                         axios.delete('http://localhost:8000/api/players/' + playerId + '/delete')
                         .then(res => { setPlayers(players.filter(player => player._id !== playerId)) })}
                 },
                 {
-                    label: 'No',
+                    label: 'Nope',
                 }
             ],
         });
     }
-
-
 
     return (
         <div className='mx-auto w-50 mt-2 p-2 text-center'>
@@ -57,7 +55,7 @@ const View = (props) => {
                                     <tr>
                                         <th scope="row"><p key={idx}> {player.name} </p></th>
                                         <th scope="row"><p key={idx}> {player.position} </p></th>
-                                        <th scope="row"><button className='mx-2 btn btn-outline-warning' onClick={(e) => { deletePlayer(player._id, player.name) }}> Delete</button>
+                                        <th scope="row"><button p key={idx} className='mx-2 btn btn-outline-warning' onClick={(e) => { deletePlayer(player._id, player.name) }}> Delete</button>
                                         </th>
                                     </tr>
                                 </tbody>
