@@ -8,6 +8,8 @@ import Create from './views/Create';
 import PlayerStatus from './views/PlayerStatus';
 import Nav from './views/Nav';
 import OtherNav from './views/OtherNav';
+import Update from './views/Update';
+import ViewOne from './views/ViewOne';
 
 function App() {
   return (
@@ -15,20 +17,28 @@ function App() {
       <Nav />
 
       <Route exact path="/">
-        <Redirect to={"/players/list"} />
+        <Redirect to="/players/list" />
       </Route>
 
-      <Route exact path={'/players/list'}>
+      <Route exact path='/players/list'>
         <OtherNav />
         <View />
       </Route>
 
-      <Route exact path={'/players/addplayer'}>
+      <Route exact path='/players/addplayer'>
         <OtherNav />
         <Create />
       </Route>
 
-      <Route exact path={'/status/game/:id'}>
+      <Route exact path="/players/edit/:id">
+      <Update/>
+      </Route>
+
+      <Route exact path="/player/:id">
+      <ViewOne/>
+      </Route>
+
+      <Route exact path='/status/game/:id'>
         <PlayerStatus />
       </Route>
 

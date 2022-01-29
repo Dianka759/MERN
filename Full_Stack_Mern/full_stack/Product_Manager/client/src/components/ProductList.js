@@ -13,7 +13,7 @@ const ProductList = (props) => {
     }, [products]);
 
     const removeFromDom = productId => {
-        setProducts(products.filter(product => product._id != productId))
+        setProducts(products.filter(product => product._id !== productId))
     }
 
     return (
@@ -22,7 +22,7 @@ const ProductList = (props) => {
                 {products.map((product, idx) => {
                     return (
                         <div className='text-warning border border-danger p-2 mb-2'>
-                            <p key={idx} > <b>Title:</b> <Link to={`/products/` + product._id} >{product.title}</Link>, <b>Price:</b> ${product.price}, <b>Description:</b> {product.description}</p>
+                            <p key={idx} > <b>Title:</b> <Link to={`/products/` + product._id} >{product.title}</Link>, <b>Price:</b> ${product.price.$numberDecimal}, <b>Description:</b> {product.description}</p>
                             <DeleteButton productId={product._id} successCallback={() => removeFromDom(product._id)} />
                         </div>
                     )

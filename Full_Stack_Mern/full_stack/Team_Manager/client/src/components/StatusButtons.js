@@ -22,7 +22,7 @@ const StatusButtons = (props) => {
         }
         axios.put(`http://localhost:8000/api/players/${playerId}/update`, updatedStatus)
             .then(res => { setPlayer(updatedStatus); })
-            .catch(err => { console.log("er") })
+            .catch(err => { console.log("err") })
     }
 
     return (

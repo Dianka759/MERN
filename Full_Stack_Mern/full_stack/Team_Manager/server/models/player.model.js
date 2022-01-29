@@ -12,6 +12,17 @@ const PlayerSchema = new mongoose.Schema(
 			game1: Number,
 			game2: Number,
 			game3: Number
+		},
+		radio: {
+			type: String,
+			required: [true, "YUH or NUH required"]
+		},
+		checkbox: Boolean,
+		counter: Number,
+		like: Boolean,
+		categories: {
+			type: String,
+			enum: ["Pick me!", "No! Pick me!!", "Guys we all know it's gonna be me."],
 		}
 	},
 	{ timestamps: true }

@@ -25,11 +25,17 @@ const Create = (prop) => {
                 setErrors(errorArr);
             })
     }
-    
+
 
     return (
         <div className="p-3">
-            <PlayerForm onSubmitProp={createPlayer} initialName="" initialPosition="" errors={errors} />
+            <PlayerForm onSubmitProp={createPlayer}
+                errors={errors}
+                initialName=""             
+                initialPosition=""
+                initialCheckbox= {false}
+                initialRadio=""
+                initialCounter= {0} />
         </div>
     )
 }

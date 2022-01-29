@@ -12,7 +12,8 @@ export default () => {
             .then(res => {
                 setProducts(res.data)
                 setLoaded(true);
-            });
+            })
+            .catch(err => console.log(err))
     }, [])
 
     const removeFromDom = productId => {
@@ -22,8 +23,10 @@ export default () => {
     const createProduct = product => {
         axios.post('http://localhost:8000/api/products/new', product)
             .then(res => {
+                console.log(res)
                 setProducts([...products, res.data]);
             })
+            .catch(err => console.log(err))
     }
 
     return (

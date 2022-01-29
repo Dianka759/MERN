@@ -13,7 +13,7 @@ module.exports.getPlayer = (request, response) => {
 }
 
 module.exports.createPlayer = (request, response) => {
-    const { name, position, game1, game2, game3 } = request.body;
+    const { name, position, game1, game2, game3, radio, checkbox, counter, like, categories } = request.body;
     Player.create({
         name,
         position,
@@ -21,7 +21,12 @@ module.exports.createPlayer = (request, response) => {
             game1,
             game2,
             game3
-        }
+        },
+        radio,
+        checkbox,
+        counter,
+        like,
+        categories
     })
         .then(player => response.json(player))
         .catch(err => response.status(400).json(err));
