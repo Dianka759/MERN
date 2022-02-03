@@ -1,0 +1,112 @@
+.header {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: white;
+    z-index: 100;
+    width: 100%;
+    top: 0;
+    padding: 8px, 16px;
+    height: 70px;
+    /* box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2); */
+    font-family: 'Poppins', sans-serif;
+    position: relative;
+    padding: 3rem 1rem;
+    margin-left: 40 0 40 0px;
+
+}
+
+.header__left {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    height: 30px;
+    /* border: 1px solid; */
+    justify-content: space-between;
+}
+
+.header__left>button {
+    align-items: center;
+    background: #dce6ff;
+    border-radius: 6px;
+    color: #2c6bff;
+    display: flex;
+    font: normal 600 16px/24px "Poppins", sans-serif;
+    height: 26px;
+    justify-content: center;
+    margin-left: 10px;
+    text-align: center;
+    width: 52px;
+}
+
+.arrow_icon {
+    margin: 10px;
+    color: #2C6BFF;
+}
+
+.header__left>h1 {
+    margin-left: 50px;
+    font-size: 28px;
+    color: #152C61;
+    font-weight: 3000;
+    font-style: bold;
+}
+
+.header__left>p {
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.search__bar {
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    border: 1px solid lightgray;
+    border-radius: 999px;
+    margin: 10px;
+}
+
+.search__bar>input {
+    border: none;
+    outline-width: 0;
+}
+
+
+.header__right {
+    display: flex;
+    align-items: center;
+    /* border: 1px solid; */
+    justify-content: space-between;
+    /* width: 15vw; */
+    margin-right: 80px;
+    padding: 20px;
+}
+
+.header__right>a {
+    margin: 10px;
+    padding: 8px;
+    color: #2C6BFF;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 800;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+/* .header__right:hover > a {
+    color:#2C6BFF;
+}
+
+.header__right--active > a {
+    color:#2C6BFF;
+} */
+
+.avatar {
+    margin: 10px !important;
+}
+
+
+a.menu_links {
+    cursor: pointer;
+}
+
+/* a.menu_links2 { color: #152c61 !important;} */

@@ -1,0 +1,125 @@
+<div id="current_track_label">
+
+    <div data-toggle="dropdown" class="show dropdown nav-item">
+        <a aria-haspopup="true" aria-expanded="true" href="#" class="dropdown-toggle nav-link" role="button">
+        PYTHON v21.1
+        </a>
+        <div 
+            x-placement="bottom-start" 
+            aria-labelledby="" 
+            class="dropdown-menu show" 
+            style="position: absolute; 
+            inset: 0px auto auto 0px; 
+            margin: 0px; 
+            transform: translate(0px, 26px);" 
+            data-popper-reference-hidden="false" 
+            data-popper-escaped="false" 
+            data-popper-placement="bottom-start">
+
+            <button type="button" class="nav-link">PRE-BOOTCAMP WEB DEVELOPMENT</button>
+            <button type="button" class="nav-link">MERN</button>
+            <button type="button" class="nav-link">PYTHON v21.1</button>
+            <button type="button" class="nav-link">CAREER SERVICES: FULL-TIME ONSITE &amp; ONLINE</button>
+            <button type="button" class="nav-link">WEB FUNDAMENTALS (2021)</button>
+            <button type="button" class="nav-link">Java</button>
+            <button type="button" class="nav-link">PROJECT WEEK FULL-TIME V21.1</button>
+        </div>
+    </div>
+</div>
+
+
+<div id="current_track_label">
+
+    <div 
+        data-toggle="dropdown" 
+        class="dropdown nav-item">
+        <a
+            aria-haspopup="true" 
+            aria-expanded="false" 
+            href="#" 
+            class="dropdown-toggle nav-link" 
+            role="button">
+        PYTHON v21.1
+        </a>
+        <div 
+            x-placement="bottom-start" 
+            aria-labelledby="" 
+            class="dropdown-menu" 
+            style="position: absolute; 
+            top: 0px; 
+            left: 0px; 
+            margin: 0px; 
+            opacity: 0; 
+            pointer-events: none;">
+        <button type="button" class="nav-link">PRE-BOOTCAMP WEB DEVELOPMENT</button>
+        <button type="button" class="nav-link">MERN</button>
+        <button type="button" class="nav-link">PYTHON v21.1</button>
+        <button type="button" class="nav-link">CAREER SERVICES: FULL-TIME ONSITE &amp; ONLINE</button>
+        <button type="button" class="nav-link">WEB FUNDAMENTALS (2021)</button>
+        <button type="button" class="nav-link">Java</button>
+        <button type="button" class="nav-link">PROJECT WEEK FULL-TIME V21.1</button>
+        </div>
+    </div>
+</div>
+
+
+    <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="caret-right" class="svg-inline--fa fa-caret-right fa-w-6 " role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 192 512">
+        <path fill="currentColor" d="M0 384.662V127.338c0-17.818 21.543-26.741 34.142-14.142l128.662 128.662c7.81 7.81 7.81 20.474 0 28.284L34.142 398.804C21.543 411.404 0 402.48 0 384.662z">
+        </path>
+    </svg>
+
+
+    <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="caret-right" class="svg-inline--fa fa-caret-right fa-w-6 " role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 192 512">
+    <path fill="currentColor" d="M0 384.662V127.338c0-17.818 21.543-26.741 34.142-14.142l128.662 128.662c7.81 7.81 7.81 20.474 0 28.284L34.142 398.804C21.543 411.404 0 402.48 0 384.662z">
+
+
+
+
+
+
+
+
+
+
+
+
+
+<svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="caret-right" class="svg-inline--fa fa-caret-right fa-w-6 " role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 192 512">
+    <path fill="currentColor" d="M0 384.662V127.338c0-17.818 21.543-26.741 34.142-14.142l128.662 128.662c7.81 7.81 7.81 20.474 0 28.284L34.142 398.804C21.543 411.404 0 402.48 0 384.662z"></path></svg>
+
+<div data-toggle="dropdown" class="show dropdown nav-item">
+
+<a aria-haspopup="true" aria-expanded="true" href="#" class="dropdown-toggle nav-link" role="button">PYTHON v21.1</a>
+
+<div 
+x-placement="bottom-start" 
+aria-labelledby="" 
+class="dropdown-menu show" 
+style="position: absolute; inset: 0px auto auto 0px; margin: 0px; transform: translate(0px, 26px);" 
+data-popper-reference-hidden="false" 
+data-popper-escaped="false" 
+data-popper-placement="bottom-start">
+
+<button type="button" class="nav-link">
+PRE-BOOTCAMP WEB DEVELOPMENT
+</button>
+
+<button type="button" class="nav-link">MERN
+</button>
+
+<button type="button" class="nav-link">PYTHON v21.1
+</button>
+
+<button type="button" class="nav-link">CAREER SERVICES: FULL-TIME ONSITE &amp; ONLINE
+</button>
+
+<button type="button" class="nav-link">WEB FUNDAMENTALS (2021)
+</button>
+
+<button type="button" class="nav-link">Java
+</button>
+
+<button type="button" class="nav-link">PROJECT WEEK FULL-TIME V21.1
+</button>
+
+</div>

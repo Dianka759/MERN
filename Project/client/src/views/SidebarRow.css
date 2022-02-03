@@ -1,0 +1,21 @@
+.sidebarRow {
+    display: flex;
+    /* align-items: center; */
+    padding: 10px;
+    cursor: pointer;
+    font-family: "Poppins", sans-serif;
+    font-size: 16px !important;
+    font-style: normal;
+    line-height: 24px;
+}
+
+.sidebarRow>img {
+    height: 25px;
+}
+
+.sidebarRow>h4 {
+    margin-left: 15px;
+    font-weight: 600;
+    text-align: center;
+}
+

@@ -1,0 +1,61 @@
+.widget {
+    align-items: center;
+    /* background-color: linen; */
+    /* background: #fff; */
+    border-radius: 6px;
+    box-shadow: 0 4px 8px rgb(0 0 0 / 5%);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 48px;
+    padding: 31px 28px 30px;
+    position: relative;
+    /* right: 0;
+    top: 0; */
+    width: 738px;
+    background-color: white;
+}
+
+#tracks_link {
+    color: #152c61;
+    font-family: "Poppins", sans-serif;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 20px;
+    margin: 0;
+    text-decoration: none;
+}
+
+#continue_link {
+    color: #2c6bff;
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 650;
+    line-height: 24px;
+    text-align: right;
+    text-decoration: none;
+}
+
+.widget__section {
+    display: flex;
+
+
+    /* padding: 30px; */
+}
+
+.widget>h5 {
+    display: flex;
+    color: grey;
+    /* position: absolute; */
+    margin-bottom: 10px;
+    /* left: 40px; */
+    text-transform: capitalize !important;
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 36px;
+    margin-left: 15px;
+}
