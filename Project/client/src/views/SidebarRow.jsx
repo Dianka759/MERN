@@ -1,22 +1,24 @@
+import { Slider } from '@mui/material';
 import React from 'react';
 import "./SidebarRow.css"
 
 function SidebarRow(props) {
     return (
-
         <div>
-            <div className="sidebarRow">
+            <div className="sidebarRow" style={{ marginBottom: "20px" }}>
                 {props.logo}
                 <h4>{props.title} ({props.score})</h4>
             </div>
-            {/* <div>
-                <h3>Hi hello
-                </h3>
+            {/* <div style={{ marginTop: "-15px", marginBottom: "20px" }}>
+                <Slider
+                    defaultValue={30}
+                    sx={{
+                        width: 300,
+                        color: 'success.main',
+                    }}
+                />
             </div> */}
         </div>
-
-
-
     );
 }
 

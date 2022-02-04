@@ -23,7 +23,7 @@ module.exports.oneStack = (request, response) => {
 
 
 module.exports.oneChapter = (request, response) => {
-    CodingDojo.findOne({ chapter: {$elemMatch: {_id : request.params._id}} })
+    CodingDojo.findOne({ "stack.chapter" : { $elemMatch: { _id : request.params._id}} })
         .then(chapter =>  response.json(chapter))
         .catch(err => response.json(err))
 }

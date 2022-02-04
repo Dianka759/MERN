@@ -1,8 +1,15 @@
 const mongoose = require("mongoose");
 
+const subSectionsSchema = new mongoose.Schema({
+    title: String,
+    image: String,
+    contents: String
+}, { timestamps: true }
+);
+
 const SectionSchema = new mongoose.Schema({
     title: String,
-    contents: String
+    subsection: [subSectionsSchema]
 }, { timestamps: true }
 );
 

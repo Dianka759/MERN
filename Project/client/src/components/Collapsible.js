@@ -1,4 +1,6 @@
-import React, { useEffect, useState } from 'react'
+import React, { useState, Fragment } from 'react'
+import ReactDOM from 'react-dom';
+import SectionContainer from './SectionContainer';
 
 
 const Collapsible = (props) => {
@@ -37,7 +39,12 @@ const Collapsible = (props) => {
                                                 <div style={!clicked2 ? { visibility: "hidden" } : {}}>
                                                     {section.title === currentSection
                                                         ? <div className="border border-primary">
-                                                            <p key={idx} className='text-danger'>{section.contents}</p>
+                                                        {/* {ReactDOM.render(<SectionContainer contents={section.contents}/> , document.getElementById('root'))} */}
+                                                        {section.subsection.map((contents, idx) => {
+                                                            return (
+                                                                <div key={idx} className='text-danger'><img src={contents.image} alt="subsection icon" height={"20px"}></img>{contents.title}</div>
+                                                            )
+                                                        })}
                                                         </div>
                                                         : ""
                                                     }

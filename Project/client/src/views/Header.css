@@ -1,25 +1,27 @@
 .header {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: center;
-    background-color: white;
-    z-index: 100;
+    /* background-color: rgb(251, 251, 251); */
+    background-color: var(--background);
     width: 100%;
-    top: 0;
-    padding: 8px, 16px;
     height: 70px;
-    /* box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2); */
     font-family: 'Poppins', sans-serif;
-    position: relative;
     padding: 3rem 1rem;
-    margin-left: 40 0 40 0px;
 
+    /* z-index: 100; */
+    /* border-bottom: 1px solid rgba(21, 44, 97, .1); */
+    /* box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2); */
 }
 
 .header__left {
+    margin-left: 40px;
+}
+
+.header__left, p {
     display: flex;
-    align-items: center;
-    padding: 10px;
+    margin: 0;
+    gap: 5px;
     height: 30px;
     /* border: 1px solid; */
     justify-content: space-between;
@@ -36,29 +38,22 @@
     justify-content: center;
     margin-left: 10px;
     text-align: center;
-    width: 52px;
+    width: 45px;
 }
 
 .arrow_icon {
-    margin: 10px;
+    margin-left: 10px;
     color: #2C6BFF;
 }
 
 .header__left>h1 {
-    margin-left: 50px;
     font-size: 28px;
-    color: #152C61;
-    font-weight: 3000;
-    font-style: bold;
+    color: var(--headers)
+    /* color: #152C61; */
 }
 
-.header__left>p {
-    font-size: 16px;
-    font-weight: 700;
-}
 
 .search__bar {
-    display: flex;
     align-items: center;
     padding: 5px;
     border: 1px solid lightgray;
@@ -69,36 +64,34 @@
 .search__bar>input {
     border: none;
     outline-width: 0;
+    background-color: var(--background);
 }
 
 
 .header__right {
     display: flex;
     align-items: center;
+    gap: 30px;
     /* border: 1px solid; */
     justify-content: space-between;
     /* width: 15vw; */
-    margin-right: 80px;
     padding: 20px;
 }
 
 .header__right>a {
     margin: 10px;
     padding: 8px;
-    color: #2C6BFF;
+    color: rgb(196, 192, 204);
     font-family: 'Poppins', sans-serif;
+    text-decoration: none;
     font-weight: 800;
     text-align: center;
     text-transform: uppercase;
 }
 
-/* .header__right:hover > a {
-    color:#2C6BFF;
+.header__right--active>a {
+    color: #2C6BFF;
 }
-
-.header__right--active > a {
-    color:#2C6BFF;
-} */
 
 .avatar {
     margin: 10px !important;

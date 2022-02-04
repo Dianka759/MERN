@@ -10,18 +10,18 @@ const Sidebar = (props) => {
     const {stacks} = props;
     const [stackName, setStackName] = useState("MERN")
     const history = useHistory();
+
     const onChangeHandler = (event) => {
         setStackName(event.target.value)
     }
     
-    const onChapterSelect = ( chapterId) => {
+    const onChapterSelect = ( chapterId ) => {
         console.log("I DID ZE THING, THE CLICKY CLICKY.")
         history.push("/stacks/chapters/" +  chapterId)
     }
 
 
     return (
-
         <div className="sidebar">
             <div className="course_title">
                 <p>Course Progress </p>
@@ -40,7 +40,6 @@ const Sidebar = (props) => {
                             )
                         })}
                     </select>
-
 
 
 
@@ -66,7 +65,6 @@ const Sidebar = (props) => {
                                     stack.stack.chapter.map((chapter, idx) => {
                                         return (
                                             <>
-                                                {/* <Link to={"/stacks/chapters/" + chapter._id}>  <p >  Chapter: {chapter.title} </p></Link> */}
                                                 <p onClick={() => onChapterSelect(chapter._id)}>
                                                     <SidebarRow
                                                     logo={<img src={chapter.image} />}

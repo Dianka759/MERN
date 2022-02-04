@@ -1,21 +1,21 @@
-.sidebarRow {
-    display: flex;
-    /* align-items: center; */
-    padding: 10px;
-    cursor: pointer;
-    font-family: "Poppins", sans-serif;
-    font-size: 16px !important;
-    font-style: normal;
-    line-height: 24px;
+.sidebar {
+    box-shadow: var(--shadowSideBar);
+    /* box-shadow: 0 4px 8px rgb(0 0 0 / 5%); */
 }
 
-.sidebarRow>img {
-    height: 25px;
+.sidebarRow {
+    display: flex;
+    align-items: center;
+    margin: 15px 0px;
+    cursor: pointer;
+    font-family: "Poppins", sans-serif;
+    font-size: 15px !important;
+    font-style: normal;
+    line-height: 24px;
+    /* margin-bottom: 30px; */
 }
 
 .sidebarRow>h4 {
-    margin-left: 15px;
-    font-weight: 600;
-    text-align: center;
+    margin-left: 20px;
+    font-size: 16px;
 }
-
