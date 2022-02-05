@@ -1,0 +1,1062 @@
+    {
+        "stack": {
+            "image": "https://assets.codingdojo.com/learn_platform/user/dashboard/track_bg/mern_bg.png",
+            "title": "MERN",
+            "chapter": [
+                {
+                    "image": "https://s3.amazonaws.com/General_V88/boomyeah2015/codingdojo/course_icons/Arrays.png?1524468437",
+                    "title": "Stack Orientation",
+                    "section": [
+                        {
+                            "title": "Stack Orientation",
+                            "subsection": [
+                                {
+                                    "title": "Rules",
+                                    "image": "https://media.discordapp.net/attachments/869526482916089896/938997208789946399/imageedit_3_7154758015.png",
+                                    "contents": "Something."
+                                },
+                                {
+                                    "title": "Requirements",
+                                    "image": "https://media.discordapp.net/attachments/869526482916089896/938997208789946399/imageedit_3_7154758015.png",
+                                    "contents": "Something."
+                                },
+                                {
+                                    "title": "Exams",
+                                    "image": "https://media.discordapp.net/attachments/869526482916089896/938997208789946399/imageedit_3_7154758015.png",
+                                    "contents": "Something."
+                                },
+                                {
+                                    "title": "Academic Honesty",
+                                    "image": "https://media.discordapp.net/attachments/869526482916089896/938997208789946399/imageedit_3_7154758015.png",
+                                    "contents": "Something."
+                                },
+                                {
+                                    "title": "Surveys",
+                                    "image": "https://media.discordapp.net/attachments/869526482916089896/938997208789946399/imageedit_3_7154758015.png",
+                                    "contents": "Something."
+                                },
+                                {
+                                    "title": "Chapter Survey",
+                                    "image": "https://media.discordapp.net/attachments/869526482916089896/938998076767621220/imageedit_5_4487051810.png",
+                                    "contents": "Something."
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "image": "https://s3.amazonaws.com/General_V88/boomyeah2015/codingdojo/course_icons/javascript_%283%29.png?1573674990",
+                    "title": "Javascript",
+                    "section": [
+                        {
+                            "title": "Course Overview",
+                            "subsection": [
+                                {
+                                    "title": "Intro to MERN",
+                                    "image": "https://media.discordapp.net/attachments/869526482916089896/938997208789946399/imageedit_3_7154758015.png",
+                                    "contents": "Something."
+                                },
+                                {
+                                    "title": "Course Outline",
+                                    "image": "https://media.discordapp.net/attachments/869526482916089896/938997208789946399/imageedit_3_7154758015.png",
+                                    "contents": "Something."
+                                },
+                                {
+                                    "title": "Chapter Survey",
+                                    "image": "https://media.discordapp.net/attachments/869526482916089896/938998076767621220/imageedit_5_4487051810.png",
+                                    "contents": "Something."
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Node",
+                            "subsection": [
+                                {
+                                    "title": "Intro to Node",
+                                    "image": "https://media.discordapp.net/attachments/869526482916089896/938997208789946399/imageedit_3_7154758015.png",
+                                    "contents": "Something."
+                                },
+                                {
+                                    "title": "Installation",
+                                    "image": "https://media.discordapp.net/attachments/869526482916089896/938997208789946399/imageedit_3_7154758015.png",
+                                    "contents": "Something."
+                                },
+                                {
+                                    "title": "Running Javascript",
+                                    "image": "https://media.discordapp.net/attachments/869526482916089896/938997208789946399/imageedit_3_7154758015.png",
+                                    "contents": "Something."
+                                },
+                                {
+                                    "title": "Chapter Survey",
+                                    "image": "https://media.discordapp.net/attachments/869526482916089896/938998076767621220/imageedit_5_4487051810.png",
+                                    "contents": "Something."
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Fundamentals",
+                            "subsection": [
+                                {
+                                    "title": "Overview",
+                                    "image": "https://media.discordapp.net/attachments/869526482916089896/938997208789946399/imageedit_3_7154758015.png",
+                                    "contents": "Something."
+                                },
+                                {
+                                    "title": "ECMAScript",
+                                    "image": "https://media.discordapp.net/attachments/869526482916089896/938997208789946399/imageedit_3_7154758015.png",
+                                    "contents": "Something."
+                                },
+                                {
+                                    "title": "Debugging",
+                                    "image": "https://media.discordapp.net/attachments/869526482916089896/938997208789946399/imageedit_3_7154758015.png",
+                                    "contents": "Something."
+                                },
+                                {
+                                    "title": "Scope",
+                                    "image": "https://media.discordapp.net/attachments/869526482916089896/938997208789946399/imageedit_3_7154758015.png",
+                                    "contents": "Something."
+                                },
+                                {
+                                    "title": "Hoisting",
+                                    "image": "https://media.discordapp.net/attachments/869526482916089896/938997208789946399/imageedit_3_7154758015.png",
+                                    "contents": "Something."
+                                },
+                                {
+                                    "title": "Quiz",
+                                    "image": "https://media.discordapp.net/attachments/869526482916089896/938997208789946399/imageedit_3_7154758015.png",
+                                    "contents": "Something."
+                                },
+                                {
+                                    "title": "Hoist",
+                                    "image": "https://media.discordapp.net/attachments/869526482916089896/938997208789946399/imageedit_3_7154758015.png",
+                                    "contents": "Something."
+                                },
+                                {
+                                    "title": "Destructuring",
+                                    "image": "https://media.discordapp.net/attachments/869526482916089896/938997208789946399/imageedit_3_7154758015.png",
+                                    "contents": "Something."
+                                },
+                                {
+                                    "title": "Predict Destructuring",
+                                    "image": "https://media.discordapp.net/attachments/869526482916089896/938997208789946399/imageedit_3_7154758015.png",
+                                    "contents": "Something."
+                                },
+                                {
+                                    "title": "Rest/Spread",
+                                    "image": "https://media.discordapp.net/attachments/869526482916089896/938997208789946399/imageedit_3_7154758015.png",
+                                    "contents": "Something."
+                                },
+                                {
+                                    "title": "Arrow Functions",
+                                    "image": "https://media.discordapp.net/attachments/869526482916089896/938997208789946399/imageedit_3_7154758015.png",
+                                    "contents": "Something."
+                                },
+                                {
+                                    "title": "Convert To Arrow",
+                                    "image": "https://media.discordapp.net/attachments/869526482916089896/938997208789946399/imageedit_3_7154758015.png",
+                                    "contents": "Something."
+                                },
+                                {
+                                    "title": "Ternary Operator",
+                                    "image": "https://media.discordapp.net/attachments/869526482916089896/938997208789946399/imageedit_3_7154758015.png",
+                                    "contents": "Something."
+                                },
+                                {
+                                    "title": "The Big O",
+                                    "image": "https://media.discordapp.net/attachments/869526482916089896/938997208789946399/imageedit_3_7154758015.png",
+                                    "contents": "Something."
+                                },
+                                {
+                                    "title": "How long did that take?",
+                                    "image": "https://media.discordapp.net/attachments/869526482916089896/938997208789946399/imageedit_3_7154758015.png",
+                                    "contents": "Something."
+                                },
+                                {
+                                    "title": "Quick Sort - Introduction",
+                                    "image": "https://media.discordapp.net/attachments/869526482916089896/938997208789946399/imageedit_3_7154758015.png",
+                                    "contents": "Something."
+                                },
+                                {
+                                    "title": "Quick Sort",
+                                    "image": "https://media.discordapp.net/attachments/869526482916089896/938997208789946399/imageedit_3_7154758015.png",
+                                    "contents": "Something."
+                                },
+                                {
+                                    "title": "Jest Unit Testing",
+                                    "image": "https://media.discordapp.net/attachments/869526482916089896/938997208789946399/imageedit_3_7154758015.png",
+                                    "contents": "Something."
+                                },
+                                {
+                                    "title": "Chapter Survey",
+                                    "image": "https://media.discordapp.net/attachments/869526482916089896/938998076767621220/imageedit_5_4487051810.png",
+                                    "contents": "Something."
+                                }
+                            ]
+                        },
+                        {
+                            "title": "OOP",
+                            "subsection": [
+                                {
+                                    "title": "Overview",
+                                    "image": "https://media.discordapp.net/attachments/869526482916089896/938997208789946399/imageedit_3_7154758015.png",
+                                    "contents": "Something."
+                                },
+                                {
+                                    "title": "Classes",
+                                    "image": "https://media.discordapp.net/attachments/869526482916089896/938997208789946399/imageedit_3_7154758015.png",
+                                    "contents": "Something."
+                                },
+                                {
+                                    "title": "Inheritance and Super",
+                                    "image": "https://media.discordapp.net/attachments/869526482916089896/938997208789946399/imageedit_3_7154758015.png",
+                                    "contents": "Something."
+                                },
+                                {
+                                    "title": "Ninja",
+                                    "image": "https://media.discordapp.net/attachments/869526482916089896/938997208789946399/imageedit_3_7154758015.png",
+                                    "contents": "Something."
+                                },
+                                {
+                                    "title": "Super Ninja",
+                                    "image": "https://media.discordapp.net/attachments/869526482916089896/938997208789946399/imageedit_3_7154758015.png",
+                                    "contents": "Something."
+                                },
+                                {
+                                    "title": "Dojo CCG",
+                                    "image": "https://media.discordapp.net/attachments/869526482916089896/938997208789946399/imageedit_3_7154758015.png",
+                                    "contents": "Something."
+                                },
+                                {
+                                    "title": "It's Time to Duel",
+                                    "image": "https://media.discordapp.net/attachments/869526482916089896/938997208789946399/imageedit_3_7154758015.png",
+                                    "contents": "Something."
+                                },
+                                {
+                                    "title": "Chapter Survey",
+                                    "image": "https://media.discordapp.net/attachments/869526482916089896/938998076767621220/imageedit_5_4487051810.png",
+                                    "contents": "Something."
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Functional Programming",
+                            "subsection": [
+                                {
+                                    "title": "Multi-Paradigm",
+                                    "image": "https://media.discordapp.net/attachments/869526482916089896/938997208789946399/imageedit_3_7154758015.png",
+                                    "contents": "Something."
+                                },
+                                {
+                                    "title": "Callback Functions",
+                                    "image": "https://media.discordapp.net/attachments/869526482916089896/938997208789946399/imageedit_3_7154758015.png",
+                                    "contents": "Something."
+                                },
+                                {
+                                    "title": "The Big Freeze",
+                                    "image": "https://media.discordapp.net/attachments/869526482916089896/938997208789946399/imageedit_3_7154758015.png",
+                                    "contents": "Something."
+                                },
+                                {
+                                    "title": "Map and Filter",
+                                    "image": "https://media.discordapp.net/attachments/869526482916089896/938997208789946399/imageedit_3_7154758015.png",
+                                    "contents": "Something."
+                                },
+                                {
+                                    "title": "Object Master",
+                                    "image": "https://media.discordapp.net/attachments/869526482916089896/938997208789946399/imageedit_3_7154758015.png",
+                                    "contents": "Something."
+                                },
+                                {
+                                    "title": "Currying",
+                                    "image": "https://media.discordapp.net/attachments/869526482916089896/938997208789946399/imageedit_3_7154758015.png",
+                                    "contents": "Something."
+                                },
+                                {
+                                    "title": "Closures",
+                                    "image": "https://media.discordapp.net/attachments/869526482916089896/938997208789946399/imageedit_3_7154758015.png",
+                                    "contents": "Something."
+                                },
+                                {
+                                    "title": "Chapter Survey",
+                                    "image": "https://media.discordapp.net/attachments/869526482916089896/938998076767621220/imageedit_5_4487051810.png",
+                                    "contents": "Something."
+                                }
+                            ]
+                        },
+                        {
+                            "title": "NPM",
+                            "subsection": [
+                                {
+                                    "title": "Node Package Manager",
+                                    "image": "https://media.discordapp.net/attachments/869526482916089896/938997208789946399/imageedit_3_7154758015.png",
+                                    "contents": "Something."
+                                },
+                                {
+                                    "title": "Chapter Survey",
+                                    "image": "https://media.discordapp.net/attachments/869526482916089896/938998076767621220/imageedit_5_4487051810.png",
+                                    "contents": "Something."
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "image": "https://s3.amazonaws.com/General_V88/boomyeah2015/codingdojo/course_icons/reaact_logo_%281%29.png?1573675216",
+                    "title": "React",
+                    "section": [
+                        {
+                            "title": "Intro to React",
+                            "subsection": [
+                                {
+                                    "title": "What is React?",
+                                    "image": "https://media.discordapp.net/attachments/869526482916089896/938997208789946399/imageedit_3_7154758015.png",
+                                    "contents": "Something."
+                                },
+                                {
+                                    "title": "Using React",
+                                    "image": "https://media.discordapp.net/attachments/869526482916089896/938997208789946399/imageedit_3_7154758015.png",
+                                    "contents": "Something."
+                                },
+                                {
+                                    "title": "First React",
+                                    "image": "https://media.discordapp.net/attachments/869526482916089896/938997208789946399/imageedit_3_7154758015.png",
+                                    "contents": "Something."
+                                },
+                                {
+                                    "title": "Syntactic Sugar",
+                                    "image": "https://media.discordapp.net/attachments/869526482916089896/938997208789946399/imageedit_3_7154758015.png",
+                                    "contents": "Something."
+                                },
+                                {
+                                    "title": "Create Create App",
+                                    "image": "https://media.discordapp.net/attachments/869526482916089896/938997208789946399/imageedit_3_7154758015.png",
+                                    "contents": "Something."
+                                },
+                                {
+                                    "title": "Folder Structure",
+                                    "image": "https://media.discordapp.net/attachments/869526482916089896/938997208789946399/imageedit_3_7154758015.png",
+                                    "contents": "Something."
+                                },
+                                {
+                                    "title": "Using JSX",
+                                    "image": "https://media.discordapp.net/attachments/869526482916089896/938997208789946399/imageedit_3_7154758015.png",
+                                    "contents": "Something."
+                                },
+                                {
+                                    "title": "First JSX",
+                                    "image": "https://media.discordapp.net/attachments/869526482916089896/938997208789946399/imageedit_3_7154758015.png",
+                                    "contents": "Something."
+                                },
+                                {
+                                    "title": "Chapter Survey",
+                                    "image": "https://media.discordapp.net/attachments/869526482916089896/938998076767621220/imageedit_5_4487051810.png",
+                                    "contents": "Something."
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Class Components",
+                            "subsection": [
+                                {
+                                    "title": "Class Components",
+                                    "image": "https://media.discordapp.net/attachments/869526482916089896/938997208789946399/imageedit_3_7154758015.png",
+                                    "contents": "Something."
+                                },
+                                {
+                                    "title": "Props",
+                                    "image": "https://media.discordapp.net/attachments/869526482916089896/938997208789946399/imageedit_3_7154758015.png",
+                                    "contents": "Something."
+                                },
+                                {
+                                    "title": "Quiz",
+                                    "image": "https://media.discordapp.net/attachments/869526482916089896/938997208789946399/imageedit_3_7154758015.png",
+                                    "contents": "Something."
+                                },
+                                {
+                                    "title": "Prop It Up",
+                                    "image": "https://media.discordapp.net/attachments/869526482916089896/938997208789946399/imageedit_3_7154758015.png",
+                                    "contents": "Something."
+                                },
+                                {
+                                    "title": "Children",
+                                    "image": "https://media.discordapp.net/attachments/869526482916089896/938997208789946399/imageedit_3_7154758015.png",
+                                    "contents": "Something."
+                                },
+                                {
+                                    "title": "Synthetic Events",
+                                    "image": "https://media.discordapp.net/attachments/869526482916089896/938997208789946399/imageedit_3_7154758015.png",
+                                    "contents": "Something."
+                                },
+                                {
+                                    "title": "State",
+                                    "image": "https://media.discordapp.net/attachments/869526482916089896/938997208789946399/imageedit_3_7154758015.png",
+                                    "contents": "Something."
+                                },
+                                {
+                                    "title": "Putting it Together",
+                                    "image": "https://media.discordapp.net/attachments/869526482916089896/938997208789946399/imageedit_3_7154758015.png",
+                                    "contents": "Something."
+                                },
+                                {
+                                    "title": "Lifecycle Methods",
+                                    "image": "https://media.discordapp.net/attachments/869526482916089896/938997208789946399/imageedit_3_7154758015.png",
+                                    "contents": "Something."
+                                },
+                                {
+                                    "title": "Quiz",
+                                    "image": "https://media.discordapp.net/attachments/869526482916089896/938997208789946399/imageedit_3_7154758015.png",
+                                    "contents": "Something."
+                                },
+                                {
+                                    "title": "Styles",
+                                    "image": "https://media.discordapp.net/attachments/869526482916089896/938997208789946399/imageedit_3_7154758015.png",
+                                    "contents": "Something."
+                                },
+                                {
+                                    "title": "React Blocks",
+                                    "image": "https://media.discordapp.net/attachments/869526482916089896/938997208789946399/imageedit_3_7154758015.png",
+                                    "contents": "Something."
+                                },
+                                {
+                                    "title": "CSS in JS",
+                                    "image": "https://media.discordapp.net/attachments/869526482916089896/938997208789946399/imageedit_3_7154758015.png",
+                                    "contents": "Something."
+                                },
+                                {
+                                    "title": "useRef",
+                                    "image": "https://media.discordapp.net/attachments/869526482916089896/938997208789946399/imageedit_3_7154758015.png",
+                                    "contents": "Something."
+                                },
+                                {
+                                    "title": "Chapter Survey",
+                                    "image": "https://media.discordapp.net/attachments/869526482916089896/938998076767621220/imageedit_5_4487051810.png",
+                                    "contents": "Something."
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Functional Components",
+                            "subsection": [
+                                {
+                                    "title": "Function vs. Class",
+                                    "image": "https://media.discordapp.net/attachments/869526482916089896/938997208789946399/imageedit_3_7154758015.png",
+                                    "contents": "Something."
+                                },
+                                {
+                                    "title": "Functional Components",
+                                    "image": "https://media.discordapp.net/attachments/869526482916089896/938997208789946399/imageedit_3_7154758015.png",
+                                    "contents": "Something."
+                                },
+                                {
+                                    "title": "Big Inversion",
+                                    "image": "https://media.discordapp.net/attachments/869526482916089896/938997208789946399/imageedit_3_7154758015.png",
+                                    "contents": "Something."
+                                },
+                                {
+                                    "title": "useState",
+                                    "image": "https://media.discordapp.net/attachments/869526482916089896/938997208789946399/imageedit_3_7154758015.png",
+                                    "contents": "Something."
+                                },
+                                {
+                                    "title": "Form",
+                                    "image": "https://media.discordapp.net/attachments/869526482916089896/938997208789946399/imageedit_3_7154758015.png",
+                                    "contents": "Something."
+                                },
+                                {
+                                    "title": "Quiz",
+                                    "image": "https://media.discordapp.net/attachments/869526482916089896/938997208789946399/imageedit_3_7154758015.png",
+                                    "contents": "Something."
+                                },
+                                {
+                                    "title": "Hook Form",
+                                    "image": "https://media.discordapp.net/attachments/869526482916089896/938997208789946399/imageedit_3_7154758015.png",
+                                    "contents": "Something."
+                                },
+                                {
+                                    "title": "Conditional Rendering",
+                                    "image": "https://media.discordapp.net/attachments/869526482916089896/938997208789946399/imageedit_3_7154758015.png",
+                                    "contents": "Something."
+                                },
+                                {
+                                    "title": "More Forms",
+                                    "image": "https://media.discordapp.net/attachments/869526482916089896/938997208789946399/imageedit_3_7154758015.png",
+                                    "contents": "Something."
+                                },
+                                {
+                                    "title": "useReducer",
+                                    "image": "https://media.discordapp.net/attachments/869526482916089896/938997208789946399/imageedit_3_7154758015.png",
+                                    "contents": "Something."
+                                },
+                                {
+                                    "title": "Form Validation",
+                                    "image": "https://media.discordapp.net/attachments/869526482916089896/938997208789946399/imageedit_3_7154758015.png",
+                                    "contents": "Something."
+                                },
+                                {
+                                    "title": "Iterating with map",
+                                    "image": "https://media.discordapp.net/attachments/869526482916089896/938997208789946399/imageedit_3_7154758015.png",
+                                    "contents": "Something."
+                                },
+                                {
+                                    "title": "Lifting State",
+                                    "image": "https://media.discordapp.net/attachments/869526482916089896/938997208789946399/imageedit_3_7154758015.png",
+                                    "contents": "Something."
+                                },
+                                {
+                                    "title": "Box Generator",
+                                    "image": "https://media.discordapp.net/attachments/869526482916089896/938997208789946399/imageedit_3_7154758015.png",
+                                    "contents": "Something."
+                                },
+                                {
+                                    "title": "Extra Callback Parameters",
+                                    "image": "https://media.discordapp.net/attachments/869526482916089896/938997208789946399/imageedit_3_7154758015.png",
+                                    "contents": "Something."
+                                },
+                                {
+                                    "title": "Tabs",
+                                    "image": "https://media.discordapp.net/attachments/869526482916089896/938997208789946399/imageedit_3_7154758015.png",
+                                    "contents": "Something."
+                                },
+                                {
+                                    "title": "Other Input Types",
+                                    "image": "https://media.discordapp.net/attachments/869526482916089896/938997208789946399/imageedit_3_7154758015.png",
+                                    "contents": "Something."
+                                },
+                                {
+                                    "title": "Todo List",
+                                    "image": "https://media.discordapp.net/attachments/869526482916089896/938997208789946399/imageedit_3_7154758015.png",
+                                    "contents": "Something."
+                                },
+                                {
+                                    "title": "Context API",
+                                    "image": "https://media.discordapp.net/attachments/869526482916089896/938997208789946399/imageedit_3_7154758015.png",
+                                    "contents": "Something."
+                                },
+                                {
+                                    "title": "Context with State",
+                                    "image": "https://media.discordapp.net/attachments/869526482916089896/938997208789946399/imageedit_3_7154758015.png",
+                                    "contents": "Something."
+                                },
+                                {
+                                    "title": "Navbar Context",
+                                    "image": "https://media.discordapp.net/attachments/869526482916089896/938997208789946399/imageedit_3_7154758015.png",
+                                    "contents": "Something."
+                                },
+                                {
+                                    "title": "Render Props",
+                                    "image": "https://media.discordapp.net/attachments/869526482916089896/938997208789946399/imageedit_3_7154758015.png",
+                                    "contents": "Something."
+                                },
+                                {
+                                    "title": "Custom Hooks",
+                                    "image": "https://media.discordapp.net/attachments/869526482916089896/938997208789946399/imageedit_3_7154758015.png",
+                                    "contents": "Something."
+                                },
+                                {
+                                    "title": "Chapter Survey",
+                                    "image": "https://media.discordapp.net/attachments/869526482916089896/938998076767621220/imageedit_5_4487051810.png",
+                                    "contents": "Something."
+                                }
+                            ]
+                        },
+                        {
+                            "title": "APIs",
+                            "subsection": [
+                                {
+                                    "title": "About Promises",
+                                    "image": "https://media.discordapp.net/attachments/869526482916089896/938997208789946399/imageedit_3_7154758015.png",
+                                    "contents": "Something."
+                                },
+                                {
+                                    "title": "Coin Flipping",
+                                    "image": "https://media.discordapp.net/attachments/869526482916089896/938997208789946399/imageedit_3_7154758015.png",
+                                    "contents": "Something."
+                                },
+                                {
+                                    "title": "Intro to Rest APIs",
+                                    "image": "https://media.discordapp.net/attachments/869526482916089896/938997208789946399/imageedit_3_7154758015.png",
+                                    "contents": "Something."
+                                },
+                                {
+                                    "title": "Consuming APIs",
+                                    "image": "https://media.discordapp.net/attachments/869526482916089896/938997208789946399/imageedit_3_7154758015.png",
+                                    "contents": "Something."
+                                },
+                                {
+                                    "title": "useEffect",
+                                    "image": "https://media.discordapp.net/attachments/869526482916089896/938997208789946399/imageedit_3_7154758015.png",
+                                    "contents": "Something."
+                                },
+                                {
+                                    "title": "Pokemon API",
+                                    "image": "https://media.discordapp.net/attachments/869526482916089896/938997208789946399/imageedit_3_7154758015.png",
+                                    "contents": "Something."
+                                },
+                                {
+                                    "title": "Axios Pokemon API",
+                                    "image": "https://media.discordapp.net/attachments/869526482916089896/938997208789946399/imageedit_3_7154758015.png",
+                                    "contents": "Something."
+                                },
+                                {
+                                    "title": "Chapter Survey",
+                                    "image": "https://media.discordapp.net/attachments/869526482916089896/938998076767621220/imageedit_5_4487051810.png",
+                                    "contents": "Something."
+                                }
+                            ]
+                        },
+                        {
+                            "title": "React Routing",
+                            "subsection": [
+                                {
+                                    "title": "What is Routing?",
+                                    "image": "https://media.discordapp.net/attachments/869526482916089896/938997208789946399/imageedit_3_7154758015.png",
+                                    "contents": "Something."
+                                },
+                                {
+                                    "title": "React Router",
+                                    "image": "https://media.discordapp.net/attachments/869526482916089896/938997208789946399/imageedit_3_7154758015.png",
+                                    "contents": "Something."
+                                },
+                                {
+                                    "title": "useParams",
+                                    "image": "https://media.discordapp.net/attachments/869526482916089896/938997208789946399/imageedit_3_7154758015.png",
+                                    "contents": "Something."
+                                },
+                                {
+                                    "title": "Routing Practice",
+                                    "image": "https://media.discordapp.net/attachments/869526482916089896/938997208789946399/imageedit_3_7154758015.png",
+                                    "contents": "Something."
+                                },
+                                {
+                                    "title": "useHistory",
+                                    "image": "https://media.discordapp.net/attachments/869526482916089896/938997208789946399/imageedit_3_7154758015.png",
+                                    "contents": "Something."
+                                },
+                                {
+                                    "title": "Luke APIwalker",
+                                    "image": "https://media.discordapp.net/attachments/869526482916089896/938997208789946399/imageedit_3_7154758015.png",
+                                    "contents": "Something."
+                                },
+                                {
+                                    "title": "Chapter Survey",
+                                    "image": "https://media.discordapp.net/attachments/869526482916089896/938998076767621220/imageedit_5_4487051810.png",
+                                    "contents": "Something."
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "image": "https://s3.amazonaws.com/General_V88/boomyeah2015/codingdojo/course_icons/express.png?1459495594",
+                    "title": "Express",
+                    "section": [
+                        {
+                            "title": "Express",
+                            "subsection": [
+                                {
+                                    "title": "What is an API?",
+                                    "image": "https://media.discordapp.net/attachments/869526482916089896/938997208789946399/imageedit_3_7154758015.png",
+                                    "contents": "Something."
+                                },
+                                {
+                                    "title": "Postman",
+                                    "image": "https://media.discordapp.net/attachments/869526482916089896/938997208789946399/imageedit_3_7154758015.png",
+                                    "contents": "Something."
+                                },
+                                {
+                                    "title": "Postman + Pokemon",
+                                    "image": "https://media.discordapp.net/attachments/869526482916089896/938997208789946399/imageedit_3_7154758015.png",
+                                    "contents": "Something."
+                                },
+                                {
+                                    "title": "HTTP Verbs",
+                                    "image": "https://media.discordapp.net/attachments/869526482916089896/938997208789946399/imageedit_3_7154758015.png",
+                                    "contents": "Something."
+                                },
+                                {
+                                    "title": "Express + Nodemon",
+                                    "image": "https://media.discordapp.net/attachments/869526482916089896/938997208789946399/imageedit_3_7154758015.png",
+                                    "contents": "Something."
+                                },
+                                {
+                                    "title": "Routing",
+                                    "image": "https://media.discordapp.net/attachments/869526482916089896/938997208789946399/imageedit_3_7154758015.png",
+                                    "contents": "Something."
+                                },
+                                {
+                                    "title": "Fake API",
+                                    "image": "https://media.discordapp.net/attachments/869526482916089896/938997208789946399/imageedit_3_7154758015.png",
+                                    "contents": "Something."
+                                },
+                                {
+                                    "title": "Folder Structure",
+                                    "image": "https://media.discordapp.net/attachments/869526482916089896/938997208789946399/imageedit_3_7154758015.png",
+                                    "contents": "Something."
+                                },
+                                {
+                                    "title": "Chapter Survey",
+                                    "image": "https://media.discordapp.net/attachments/869526482916089896/938998076767621220/imageedit_5_4487051810.png",
+                                    "contents": "Something."
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "image": "https://s3.amazonaws.com/General_V88/boomyeah2015/codingdojo/course_icons/mongo_%281%29.png?1573677691",
+                    "title": "MongoDB",
+                    "section": [
+                        {
+                            "title": "MongoDB",
+                            "subsection": [
+                                {
+                                    "title": "Overview",
+                                    "image": "https://media.discordapp.net/attachments/869526482916089896/938997208789946399/imageedit_3_7154758015.png",
+                                    "contents": "Something."
+                                },
+                                {
+                                    "title": "Installing - Windows",
+                                    "image": "https://media.discordapp.net/attachments/869526482916089896/938997208789946399/imageedit_3_7154758015.png",
+                                    "contents": "Something."
+                                },
+                                {
+                                    "title": "Installing - MAC",
+                                    "image": "https://media.discordapp.net/attachments/869526482916089896/938997208789946399/imageedit_3_7154758015.png",
+                                    "contents": "Something."
+                                },
+                                {
+                                    "title": "Basics",
+                                    "image": "https://media.discordapp.net/attachments/869526482916089896/938997208789946399/imageedit_3_7154758015.png",
+                                    "contents": "Something."
+                                },
+                                {
+                                    "title": "Documents",
+                                    "image": "https://media.discordapp.net/attachments/869526482916089896/938997208789946399/imageedit_3_7154758015.png",
+                                    "contents": "Something."
+                                },
+                                {
+                                    "title": "Operators",
+                                    "image": "https://media.discordapp.net/attachments/869526482916089896/938997208789946399/imageedit_3_7154758015.png",
+                                    "contents": "Something."
+                                },
+                                {
+                                    "title": "Quiz I",
+                                    "image": "https://media.discordapp.net/attachments/869526482916089896/938997208789946399/imageedit_3_7154758015.png",
+                                    "contents": "Something."
+                                },
+                                {
+                                    "title": "Quiz II",
+                                    "image": "https://media.discordapp.net/attachments/869526482916089896/938997208789946399/imageedit_3_7154758015.png",
+                                    "contents": "Something."
+                                },
+                                {
+                                    "title": "Using MongoDB",
+                                    "image": "https://media.discordapp.net/attachments/869526482916089896/938997208789946399/imageedit_3_7154758015.png",
+                                    "contents": "Something."
+                                },
+                                {
+                                    "title": "Chapter Survey",
+                                    "image": "https://media.discordapp.net/attachments/869526482916089896/938998076767621220/imageedit_5_4487051810.png",
+                                    "contents": "Something."
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Mongoose",
+                            "subsection": [
+                                {
+                                    "title": "Express + Mongoose",
+                                    "image": "https://media.discordapp.net/attachments/869526482916089896/938997208789946399/imageedit_3_7154758015.png",
+                                    "contents": "Something."
+                                },
+                                {
+                                    "title": "Mongoose Commands",
+                                    "image": "https://media.discordapp.net/attachments/869526482916089896/938997208789946399/imageedit_3_7154758015.png",
+                                    "contents": "Something."
+                                },
+                                {
+                                    "title": "Validations",
+                                    "image": "https://media.discordapp.net/attachments/869526482916089896/938997208789946399/imageedit_3_7154758015.png",
+                                    "contents": "Something."
+                                },
+                                {
+                                    "title": "Quiz I",
+                                    "image": "https://media.discordapp.net/attachments/869526482916089896/938997208789946399/imageedit_3_7154758015.png",
+                                    "contents": "Something."
+                                },
+                                {
+                                    "title": "Jokes API",
+                                    "image": "https://media.discordapp.net/attachments/869526482916089896/938997208789946399/imageedit_3_7154758015.png",
+                                    "contents": "Something."
+                                },
+                                {
+                                    "title": "Nested Documents",
+                                    "image": "https://media.discordapp.net/attachments/869526482916089896/938997208789946399/imageedit_3_7154758015.png",
+                                    "contents": "Something."
+                                },
+                                {
+                                    "title": "Chapter Survey",
+                                    "image": "https://media.discordapp.net/attachments/869526482916089896/938998076767621220/imageedit_5_4487051810.png",
+                                    "contents": "Something."
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "image": "https://s3.amazonaws.com/General_V88/boomyeah2015/codingdojo/course_icons/MERN.png?1574197459",
+                    "title": "Full Stack MERN",
+                    "section": [
+                        {
+                            "title": "Full Stack MERN",
+                            "subsection": [
+                                {
+                                    "title": "Introduction",
+                                    "image": "https://media.discordapp.net/attachments/869526482916089896/938997208789946399/imageedit_3_7154758015.png",
+                                    "contents": "Something."
+                                },
+                                {
+                                    "title": "Setting up MERN",
+                                    "image": "https://media.discordapp.net/attachments/869526482916089896/938997208789946399/imageedit_3_7154758015.png",
+                                    "contents": "Something."
+                                },
+                                {
+                                    "title": "Hello World",
+                                    "image": "https://media.discordapp.net/attachments/869526482916089896/938997208789946399/imageedit_3_7154758015.png",
+                                    "contents": "Something."
+                                },
+                                {
+                                    "title": "Creat (Part I)",
+                                    "image": "https://media.discordapp.net/attachments/869526482916089896/938997208789946399/imageedit_3_7154758015.png",
+                                    "contents": "Something."
+                                },
+                                {
+                                    "title": "Create (Part II)",
+                                    "image": "https://media.discordapp.net/attachments/869526482916089896/938997208789946399/imageedit_3_7154758015.png",
+                                    "contents": "Something."
+                                },
+                                {
+                                    "title": "Product Manager (Part I)",
+                                    "image": "https://media.discordapp.net/attachments/869526482916089896/938997208789946399/imageedit_3_7154758015.png",
+                                    "contents": "Something."
+                                },
+                                {
+                                    "title": "List and Detail",
+                                    "image": "https://media.discordapp.net/attachments/869526482916089896/938997208789946399/imageedit_3_7154758015.png",
+                                    "contents": "Something."
+                                },
+                                {
+                                    "title": "Product Manager (Part II)",
+                                    "image": "https://media.discordapp.net/attachments/869526482916089896/938997208789946399/imageedit_3_7154758015.png",
+                                    "contents": "Something."
+                                },
+                                {
+                                    "title": "Update and Delete",
+                                    "image": "https://media.discordapp.net/attachments/869526482916089896/938997208789946399/imageedit_3_7154758015.png",
+                                    "contents": "Something."
+                                },
+                                {
+                                    "title": "Product Manager (Part III)",
+                                    "image": "https://media.discordapp.net/attachments/869526482916089896/938997208789946399/imageedit_3_7154758015.png",
+                                    "contents": "Something."
+                                },
+                                {
+                                    "title": "Looking Ahead",
+                                    "image": "https://media.discordapp.net/attachments/869526482916089896/938997208789946399/imageedit_3_7154758015.png",
+                                    "contents": "Something."
+                                },
+                                {
+                                    "title": "Chapter Survey",
+                                    "image": "https://media.discordapp.net/attachments/869526482916089896/938998076767621220/imageedit_5_4487051810.png",
+                                    "contents": "Something."
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Advanced MERN",
+                            "subsection": [
+                                {
+                                    "title": "Overview",
+                                    "image": "https://media.discordapp.net/attachments/869526482916089896/938997208789946399/imageedit_3_7154758015.png",
+                                    "contents": "Something."
+                                },
+                                {
+                                    "title": "Reusing Components",
+                                    "image": "https://media.discordapp.net/attachments/869526482916089896/938997208789946399/imageedit_3_7154758015.png",
+                                    "contents": "Something."
+                                },
+                                {
+                                    "title": "Reusing Components (Part II)",
+                                    "image": "https://media.discordapp.net/attachments/869526482916089896/938997208789946399/imageedit_3_7154758015.png",
+                                    "contents": "Something."
+                                },
+                                {
+                                    "title": "Presentational vs Container",
+                                    "image": "https://media.discordapp.net/attachments/869526482916089896/938997208789946399/imageedit_3_7154758015.png",
+                                    "contents": "Something."
+                                },
+                                {
+                                    "title": "Refactor, Reuse, Recycle",
+                                    "image": "https://media.discordapp.net/attachments/869526482916089896/938997208789946399/imageedit_3_7154758015.png",
+                                    "contents": "Something."
+                                },
+                                {
+                                    "title": "Material-UI",
+                                    "image": "https://media.discordapp.net/attachments/869526482916089896/938997208789946399/imageedit_3_7154758015.png",
+                                    "contents": "Something."
+                                },
+                                {
+                                    "title": "Validations",
+                                    "image": "https://media.discordapp.net/attachments/869526482916089896/938997208789946399/imageedit_3_7154758015.png",
+                                    "contents": "Something."
+                                },
+                                {
+                                    "title": "Authors",
+                                    "image": "https://media.discordapp.net/attachments/869526482916089896/938997208789946399/imageedit_3_7154758015.png",
+                                    "contents": "Something."
+                                },
+                                {
+                                    "title": "Team Manager",
+                                    "image": "https://media.discordapp.net/attachments/869526482916089896/938997208789946399/imageedit_3_7154758015.png",
+                                    "contents": "Something."
+                                },
+                                {
+                                    "title": "Sports Demo",
+                                    "image": "https://media.discordapp.net/attachments/869526482916089896/938997208789946399/imageedit_3_7154758015.png",
+                                    "contents": "Something."
+                                },
+                                {
+                                    "title": "Chapter Survey",
+                                    "image": "https://media.discordapp.net/attachments/869526482916089896/938998076767621220/imageedit_5_4487051810.png",
+                                    "contents": "Something."
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "image": "https://s3.amazonaws.com/General_V88/boomyeah2015/codingdojo/course_icons/socketIO_logo_%281%29.png?1573674985",
+                    "title": "Sockiet.Io",
+                    "section": [
+                        {
+                            "title": "Sockiet.io",
+                            "subsection": [
+                                {
+                                    "title": "Web Sockets",
+                                    "image": "https://media.discordapp.net/attachments/869526482916089896/938997208789946399/imageedit_3_7154758015.png",
+                                    "contents": "Something."
+                                },
+                                {
+                                    "title": "Sockets on the server",
+                                    "image": "https://media.discordapp.net/attachments/869526482916089896/938997208789946399/imageedit_3_7154758015.png",
+                                    "contents": "Something."
+                                },
+                                {
+                                    "title": "Sockets and the Client",
+                                    "image": "https://media.discordapp.net/attachments/869526482916089896/938997208789946399/imageedit_3_7154758015.png",
+                                    "contents": "Something."
+                                },
+                                {
+                                    "title": "Quiz",
+                                    "image": "https://media.discordapp.net/attachments/869526482916089896/938997208789946399/imageedit_3_7154758015.png",
+                                    "contents": "Something."
+                                },
+                                {
+                                    "title": "Creating the Handshake",
+                                    "image": "https://media.discordapp.net/attachments/869526482916089896/938997208789946399/imageedit_3_7154758015.png",
+                                    "contents": "Something."
+                                },
+                                {
+                                    "title": "Chat App",
+                                    "image": "https://media.discordapp.net/attachments/869526482916089896/938997208789946399/imageedit_3_7154758015.png",
+                                    "contents": "Something."
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "image": "https://s3.amazonaws.com/General_V88/boomyeah2015/codingdojo/course_icons/workshop.png",
+                    "title": "MERN Auth",
+                    "section": [
+                        {
+                            "title": "MERN Auth",
+                            "subsection": [
+                                {
+                                    "title": "Introductions",
+                                    "image": "https://media.discordapp.net/attachments/869526482916089896/938997208789946399/imageedit_3_7154758015.png",
+                                    "contents": "Something."
+                                },
+                                {
+                                    "title": "Authentication and Authorization",
+                                    "image": "https://media.discordapp.net/attachments/869526482916089896/938997208789946399/imageedit_3_7154758015.png",
+                                    "contents": "Something."
+                                },
+                                {
+                                    "title": "User Model",
+                                    "image": "https://media.discordapp.net/attachments/869526482916089896/938997208789946399/imageedit_3_7154758015.png",
+                                    "contents": "Something."
+                                },
+                                {
+                                    "title": "Registration",
+                                    "image": "https://media.discordapp.net/attachments/869526482916089896/938997208789946399/imageedit_3_7154758015.png",
+                                    "contents": "Something."
+                                },
+                                {
+                                    "title": "Environment Variables",
+                                    "image": "https://media.discordapp.net/attachments/869526482916089896/938997208789946399/imageedit_3_7154758015.png",
+                                    "contents": "Something."
+                                },
+                                {
+                                    "title": "JSON Web Tokens",
+                                    "image": "https://media.discordapp.net/attachments/869526482916089896/938997208789946399/imageedit_3_7154758015.png",
+                                    "contents": "Something."
+                                },
+                                {
+                                    "title": "Cookies",
+                                    "image": "https://media.discordapp.net/attachments/869526482916089896/938997208789946399/imageedit_3_7154758015.png",
+                                    "contents": "Something."
+                                },
+                                {
+                                    "title": "async/wait",
+                                    "image": "https://media.discordapp.net/attachments/869526482916089896/938997208789946399/imageedit_3_7154758015.png",
+                                    "contents": "Something."
+                                },
+                                {
+                                    "title": "Login/Logout",
+                                    "image": "https://media.discordapp.net/attachments/869526482916089896/938997208789946399/imageedit_3_7154758015.png",
+                                    "contents": "Something."
+                                },
+                                {
+                                    "title": "Authorization and Middleware",
+                                    "image": "https://media.discordapp.net/attachments/869526482916089896/938997208789946399/imageedit_3_7154758015.png",
+                                    "contents": "Something."
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "image": "https://s3.amazonaws.com/General_V88/boomyeah2015/codingdojo/course_icons/deployment.png",
+                    "title": "MERN Deployment",
+                    "section": [
+                        {
+                            "title": "MERN Deployment",
+                            "subsection": [
+                                {
+                                    "title": "Deployment",
+                                    "image": "https://media.discordapp.net/attachments/869526482916089896/938997208789946399/imageedit_3_7154758015.png",
+                                    "contents": "Something."
+                                },
+                                {
+                                    "title": "Chapter Survey",
+                                    "image": "https://media.discordapp.net/attachments/869526482916089896/938998076767621220/imageedit_5_4487051810.png",
+                                    "contents": "Something."
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    }

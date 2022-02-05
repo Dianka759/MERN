@@ -41,7 +41,7 @@
     border: 1; */
 }
 
-.card__title p {
+.card__title>p {
     width: 160px;
 
 }

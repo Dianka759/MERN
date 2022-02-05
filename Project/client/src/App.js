@@ -16,6 +16,9 @@ import OneStack from './views/OneStack';
 import Navigation from './components/ChapterList';
 import { useEffect, useState } from 'react';
 import axios from 'axios';
+import Stringifier from './components/Stringifier';
+import Main from './views/Main';
+import DisplayHTML from './components/DisplayHTML';
 
 function App() {
   const defaultDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
@@ -68,13 +71,22 @@ function App() {
 
 
         <Route exact path="/stacks/chapters/:chapterID">
-        <div className="oneChapter">
-          <OneChapter />
-          </div>
+        {/* <div className="oneChapter"> */}
+          <Main  stacks={stacks}/>
+          {/* <OneChapter /> */}
+          {/* </div> */}
         </Route>
 
         <Route exact path="/stacks/:_id">
           <Navigation />
+        </Route>
+
+        <Route exact path="/stringfier">
+          <Stringifier/>
+        </Route>
+
+        <Route exact path="/displayHTML">
+          <DisplayHTML/>
         </Route>
 
         {/* </Switch> */}

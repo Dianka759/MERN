@@ -14,7 +14,8 @@
 
 
 .banner__info {
-    background-color: whitesmoke;
+    background-color: var(--backgroundBack);
+    /* background-color: whitesmoke; */
     display: block;
     align-content: center;
     height: 75px;

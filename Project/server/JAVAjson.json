@@ -1,0 +1,775 @@
+    {
+        "stack": {
+            "image": "https://assets.codingdojo.com/learn_platform/user/dashboard/track_bg/full_stack_essentials_bg.png",
+            "title": "Java",
+            "chapter": [
+                {
+                    "image": "https://s3.amazonaws.com/General_V88/boomyeah2015/codingdojo/course_icons/Arrays.png?1524468437",
+                    "title": "Stack Orientation",
+                    "section": [
+                        {
+                            "title": "Stack Orientation",
+                            "subsection": [
+                                {
+                                    "title": "Rules",
+                                    "image": "https://media.discordapp.net/attachments/869526482916089896/938997208789946399/imageedit_3_7154758015.png",
+                                    "contents": "Something."
+                                },
+                                {
+                                    "title": "Requirements",
+                                    "image": "https://media.discordapp.net/attachments/869526482916089896/938997208789946399/imageedit_3_7154758015.png",
+                                    "contents": "Something."
+                                },
+                                {
+                                    "title": "Exams",
+                                    "image": "https://media.discordapp.net/attachments/869526482916089896/938997208789946399/imageedit_3_7154758015.png",
+                                    "contents": "Something."
+                                },
+                                {
+                                    "title": "Academic Honesty",
+                                    "image": "https://media.discordapp.net/attachments/869526482916089896/938997208789946399/imageedit_3_7154758015.png",
+                                    "contents": "Something."
+                                },
+                                {
+                                    "title": "Surveys",
+                                    "image": "https://media.discordapp.net/attachments/869526482916089896/938997208789946399/imageedit_3_7154758015.png",
+                                    "contents": "Something."
+                                },
+                                {
+                                    "title": "Chapter Survey",
+                                    "image": "https://media.discordapp.net/attachments/869526482916089896/938998076767621220/imageedit_5_4487051810.png",
+                                    "contents": "Something."
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "image": "https://s3.amazonaws.com/General_V88/boomyeah2015/codingdojo/course_icons/javascript_%283%29.png?1573674990",
+                    "title": "Java Foundations",
+                    "section": [
+                        {
+                            "title": "Set Up",
+                            "subsection": [
+                                {
+                                    "title": "Course Overview",
+                                    "image": "https://media.discordapp.net/attachments/869526482916089896/938997208789946399/imageedit_3_7154758015.png",
+                                    "contents": "Something."
+                                },
+                                {
+                                    "title": "JDK Installation",
+                                    "image": "https://media.discordapp.net/attachments/869526482916089896/938997208789946399/imageedit_3_7154758015.png",
+                                    "contents": "Something."
+                                },
+                                {
+                                    "title": "Java Versioning",
+                                    "image": "https://media.discordapp.net/attachments/869526482916089896/938997208789946399/imageedit_3_7154758015.png",
+                                    "contents": "Something."
+                                },
+                                {
+                                    "title": "Java Study Strategies",
+                                    "image": "https://media.discordapp.net/attachments/869526482916089896/938997208789946399/imageedit_3_7154758015.png",
+                                    "contents": "Something."
+                                },
+                                {
+                                    "title": "Chapter Survey",
+                                    "image": "https://media.discordapp.net/attachments/869526482916089896/938998076767621220/imageedit_5_4487051810.png",
+                                    "contents": "Something."
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Fundamentals",
+                            "subsection": [
+                                {
+                                    "title": "Why Java?",
+                                    "image": "https://media.discordapp.net/attachments/869526482916089896/938997208789946399/imageedit_3_7154758015.png",
+                                    "contents": "Something."
+                                },
+                                {
+                                    "title": "How Does Java Work?",
+                                    "image": "https://media.discordapp.net/attachments/869526482916089896/938997208789946399/imageedit_3_7154758015.png",
+                                    "contents": "Something."
+                                },
+                                {
+                                    "title": "Hello World",
+                                    "image": "https://media.discordapp.net/attachments/869526482916089896/938997208789946399/imageedit_3_7154758015.png",
+                                    "contents": "Something."
+                                },
+                                {
+                                    "title": "Starting Java",
+                                    "image": "https://media.discordapp.net/attachments/869526482916089896/938997208789946399/imageedit_3_7154758015.png",
+                                    "contents": "Something."
+                                },
+                                {
+                                    "title": "First Java Program",
+                                    "image": "https://media.discordapp.net/attachments/869526482916089896/938997208789946399/imageedit_3_7154758015.png",
+                                    "contents": "Something."
+                                },
+                                {
+                                    "title": "Variables",
+                                    "image": "https://media.discordapp.net/attachments/869526482916089896/938997208789946399/imageedit_3_7154758015.png",
+                                    "contents": "Something."
+                                },
+                                {
+                                    "title": "Conditionals & Operators",
+                                    "image": "https://media.discordapp.net/attachments/869526482916089896/938997208789946399/imageedit_3_7154758015.png",
+                                    "contents": "Something."
+                                },
+                                {
+                                    "title": "Language Basics Review",
+                                    "image": "https://media.discordapp.net/attachments/869526482916089896/938997208789946399/imageedit_3_7154758015.png",
+                                    "contents": "Something."
+                                },
+                                {
+                                    "title": "Cafe Java",
+                                    "image": "https://media.discordapp.net/attachments/869526482916089896/938997208789946399/imageedit_3_7154758015.png",
+                                    "contents": "Something."
+                                },
+                                {
+                                    "title": "Strings",
+                                    "image": "https://media.discordapp.net/attachments/869526482916089896/938997208789946399/imageedit_3_7154758015.png",
+                                    "contents": "Something."
+                                },
+                                {
+                                    "title": "Methods",
+                                    "image": "https://media.discordapp.net/attachments/869526482916089896/938997208789946399/imageedit_3_7154758015.png",
+                                    "contents": "Something."
+                                },
+                                {
+                                    "title": "Modularization",
+                                    "image": "https://media.discordapp.net/attachments/869526482916089896/938997208789946399/imageedit_3_7154758015.png",
+                                    "contents": "Something."
+                                },
+                                {
+                                    "title": "Methods Review",
+                                    "image": "https://media.discordapp.net/attachments/869526482916089896/938997208789946399/imageedit_3_7154758015.png",
+                                    "contents": "Something."
+                                },
+                                {
+                                    "title": "Alfred Bot",
+                                    "image": "https://media.discordapp.net/attachments/869526482916089896/938997208789946399/imageedit_3_7154758015.png",
+                                    "contents": "Something."
+                                },
+                                {
+                                    "title": "Type Casting",
+                                    "image": "https://media.discordapp.net/attachments/869526482916089896/938997208789946399/imageedit_3_7154758015.png",
+                                    "contents": "Something."
+                                },
+                                {
+                                    "title": "Fixed Arrays",
+                                    "image": "https://media.discordapp.net/attachments/869526482916089896/938997208789946399/imageedit_3_7154758015.png",
+                                    "contents": "Something."
+                                },
+                                {
+                                    "title": "ArrayLists (Dynamic Arrays)",
+                                    "image": "https://media.discordapp.net/attachments/869526482916089896/938997208789946399/imageedit_3_7154758015.png",
+                                    "contents": "Something."
+                                },
+                                {
+                                    "title": "Loops",
+                                    "image": "https://media.discordapp.net/attachments/869526482916089896/938997208789946399/imageedit_3_7154758015.png",
+                                    "contents": "Something."
+                                },
+                                {
+                                    "title": "Arrays & Loops Review",
+                                    "image": "https://media.discordapp.net/attachments/869526482916089896/938997208789946399/imageedit_3_7154758015.png",
+                                    "contents": "Something."
+                                },
+                                {
+                                    "title": "Cafe Business Logic",
+                                    "image": "https://media.discordapp.net/attachments/869526482916089896/938997208789946399/imageedit_3_7154758015.png",
+                                    "contents": "Something."
+                                },
+                                {
+                                    "title": "Puzzling",
+                                    "image": "https://media.discordapp.net/attachments/869526482916089896/938997208789946399/imageedit_3_7154758015.png",
+                                    "contents": "Something."
+                                },
+                                {
+                                    "title": "Maps",
+                                    "image": "https://media.discordapp.net/attachments/869526482916089896/938997208789946399/imageedit_3_7154758015.png",
+                                    "contents": "Something."
+                                },
+                                {
+                                    "title": "Map of the Hashmatique",
+                                    "image": "https://media.discordapp.net/attachments/869526482916089896/938997208789946399/imageedit_3_7154758015.png",
+                                    "contents": "Something."
+                                },
+                                {
+                                    "title": "Exceptions",
+                                    "image": "https://media.discordapp.net/attachments/869526482916089896/938997208789946399/imageedit_3_7154758015.png",
+                                    "contents": "Something."
+                                },
+                                {
+                                    "title": "Lists of Exceptions",
+                                    "image": "https://media.discordapp.net/attachments/869526482916089896/938997208789946399/imageedit_3_7154758015.png",
+                                    "contents": "Something."
+                                },
+                                {
+                                    "title": "Chapter Survey",
+                                    "image": "https://media.discordapp.net/attachments/869526482916089896/938998076767621220/imageedit_5_4487051810.png",
+                                    "contents": "Something."
+                                }
+                            ]
+                        },
+                        {
+                            "image": "https://s3.amazonaws.com/General_V88/boomyeah2015/codingdojo/course_icons/workshop.png",
+                            "title": "Java OOP",
+                            "section": [
+                                {
+                                    "title": "Java OOP",
+                                    "subsection": [
+                                        {
+                                            "title": "Overview",
+                                            "image": "https://media.discordapp.net/attachments/869526482916089896/938997208789946399/imageedit_3_7154758015.png",
+                                            "contents": "Something."
+                                        },
+                                        {
+                                            "title": "Objects and Classes",
+                                            "image": "https://media.discordapp.net/attachments/869526482916089896/938997208789946399/imageedit_3_7154758015.png",
+                                            "contents": "Something."
+                                        },
+                                        {
+                                            "title": "Member Variables",
+                                            "image": "https://media.discordapp.net/attachments/869526482916089896/938997208789946399/imageedit_3_7154758015.png",
+                                            "contents": "Something."
+                                        },
+                                        {
+                                            "title": "Orders & Items",
+                                            "image": "https://media.discordapp.net/attachments/869526482916089896/938997208789946399/imageedit_3_7154758015.png",
+                                            "contents": "Something."
+                                        },
+                                        {
+                                            "title": "Getters, Setters & Access Modifiers",
+                                            "image": "https://media.discordapp.net/attachments/869526482916089896/938997208789946399/imageedit_3_7154758015.png",
+                                            "contents": "Something."
+                                        },
+                                        {
+                                            "title": "Constructors and Overloading",
+                                            "image": "https://media.discordapp.net/attachments/869526482916089896/938997208789946399/imageedit_3_7154758015.png",
+                                            "contents": "Something."
+                                        },
+                                        {
+                                            "title": "this",
+                                            "image": "https://media.discordapp.net/attachments/869526482916089896/938997208789946399/imageedit_3_7154758015.png",
+                                            "contents": "Something."
+                                        },
+                                        {
+                                            "title": "More on Methods",
+                                            "image": "https://media.discordapp.net/attachments/869526482916089896/938997208789946399/imageedit_3_7154758015.png",
+                                            "contents": "Something."
+                                        },
+                                        {
+                                            "title": "Barista's Challenge",
+                                            "image": "https://media.discordapp.net/attachments/869526482916089896/938997208789946399/imageedit_3_7154758015.png",
+                                            "contents": "Something."
+                                        },
+                                        {
+                                            "title": "Static",
+                                            "image": "https://media.discordapp.net/attachments/869526482916089896/938997208789946399/imageedit_3_7154758015.png",
+                                            "contents": "Something."
+                                        },
+                                        {
+                                            "title": "BankAccount",
+                                            "image": "https://media.discordapp.net/attachments/869526482916089896/938997208789946399/imageedit_3_7154758015.png",
+                                            "contents": "Something."
+                                        },
+                                        {
+                                            "title": "Coffeedore 64",
+                                            "image": "https://media.discordapp.net/attachments/869526482916089896/938997208789946399/imageedit_3_7154758015.png",
+                                            "contents": "Something."
+                                        },
+                                        {
+                                            "title": "Chapter Survey",
+                                            "image": "https://media.discordapp.net/attachments/869526482916089896/938998076767621220/imageedit_5_4487051810.png",
+                                            "contents": "Something."
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Java OOP Advanced",
+                                    "subsection": [
+                                        {
+                                            "title": "Spring Tool Suite (STS)",
+                                            "image": "https://media.discordapp.net/attachments/869526482916089896/938997208789946399/imageedit_3_7154758015.png",
+                                            "contents": "Something."
+                                        },
+                                        {
+                                            "title": "Packages",
+                                            "image": "https://media.discordapp.net/attachments/869526482916089896/938997208789946399/imageedit_3_7154758015.png",
+                                            "contents": "Something."
+                                        },
+                                        {
+                                            "title": "Four Pillars of OOP",
+                                            "image": "https://media.discordapp.net/attachments/869526482916089896/938997208789946399/imageedit_3_7154758015.png",
+                                            "contents": "Something."
+                                        },
+                                        {
+                                            "title": "Inheritance",
+                                            "image": "https://media.discordapp.net/attachments/869526482916089896/938997208789946399/imageedit_3_7154758015.png",
+                                            "contents": "Something."
+                                        },
+                                        {
+                                            "title": "Zoo Keeper: Part 1",
+                                            "image": "https://media.discordapp.net/attachments/869526482916089896/938997208789946399/imageedit_3_7154758015.png",
+                                            "contents": "Something."
+                                        },
+                                        {
+                                            "title": "Zoo Keeper: Part 2",
+                                            "image": "https://media.discordapp.net/attachments/869526482916089896/938997208789946399/imageedit_3_7154758015.png",
+                                            "contents": "Something."
+                                        },
+                                        {
+                                            "title": "Interface",
+                                            "image": "https://media.discordapp.net/attachments/869526482916089896/938997208789946399/imageedit_3_7154758015.png",
+                                            "contents": "Something."
+                                        },
+                                        {
+                                            "title": "Interface Implementation",
+                                            "image": "https://media.discordapp.net/attachments/869526482916089896/938997208789946399/imageedit_3_7154758015.png",
+                                            "contents": "Something."
+                                        },
+                                        {
+                                            "title": "Annotations",
+                                            "image": "https://media.discordapp.net/attachments/869526482916089896/938997208789946399/imageedit_3_7154758015.png",
+                                            "contents": "Something."
+                                        },
+                                        {
+                                            "title": "CareSoft Interfaces",
+                                            "image": "https://media.discordapp.net/attachments/869526482916089896/938997208789946399/imageedit_3_7154758015.png",
+                                            "contents": "Something."
+                                        },
+                                        {
+                                            "title": "Abstract",
+                                            "image": "https://media.discordapp.net/attachments/869526482916089896/938997208789946399/imageedit_3_7154758015.png",
+                                            "contents": "Something."
+                                        },
+                                        {
+                                            "title": "Abstract Art",
+                                            "image": "https://media.discordapp.net/attachments/869526482916089896/938997208789946399/imageedit_3_7154758015.png",
+                                            "contents": "Something."
+                                        },
+                                        {
+                                            "title": "Abstracts vs Interfaces",
+                                            "image": "https://media.discordapp.net/attachments/869526482916089896/938997208789946399/imageedit_3_7154758015.png",
+                                            "contents": "Something."
+                                        },
+                                        {
+                                            "title": "POJO and Java Beans",
+                                            "image": "https://media.discordapp.net/attachments/869526482916089896/938997208789946399/imageedit_3_7154758015.png",
+                                            "contents": "Something."
+                                        },
+                                        {
+                                            "title": "Calculator I",
+                                            "image": "https://media.discordapp.net/attachments/869526482916089896/938997208789946399/imageedit_3_7154758015.png",
+                                            "contents": "Something."
+                                        },
+                                        {
+                                            "title": "Calculator II",
+                                            "image": "https://media.discordapp.net/attachments/869526482916089896/938997208789946399/imageedit_3_7154758015.png",
+                                            "contents": "Something."
+                                        },
+                                        {
+                                            "title": "Chapter Survey",
+                                            "image": "https://media.discordapp.net/attachments/869526482916089896/938998076767621220/imageedit_5_4487051810.png",
+                                            "contents": "Something."
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Data Structures",
+                                    "subsection": [
+                                        {
+                                            "title": "Singly Linked List",
+                                            "image": "https://media.discordapp.net/attachments/869526482916089896/938997208789946399/imageedit_3_7154758015.png",
+                                            "contents": "Something."
+                                        },
+                                        {
+                                            "title": "Doubly Linked List",
+                                            "image": "https://media.discordapp.net/attachments/869526482916089896/938997208789946399/imageedit_3_7154758015.png",
+                                            "contents": "Something."
+                                        },
+                                        {
+                                            "title": "DLL Assignment",
+                                            "image": "https://media.discordapp.net/attachments/869526482916089896/938997208789946399/imageedit_3_7154758015.png",
+                                            "contents": "Something."
+                                        },
+                                        {
+                                            "title": "Tries",
+                                            "image": "https://media.discordapp.net/attachments/869526482916089896/938997208789946399/imageedit_3_7154758015.png",
+                                            "contents": "Something."
+                                        },
+                                        {
+                                            "title": "Tries Assignment",
+                                            "image": "https://media.discordapp.net/attachments/869526482916089896/938997208789946399/imageedit_3_7154758015.png",
+                                            "contents": "Something."
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "image": "https://s3.amazonaws.com/General_V88/boomyeah2015/codingdojo/course_icons/workshop.png",
+                    "title": "Java Spring",
+                    "section": [
+                        {
+                            "title": "Spring Intro",
+                            "subsection": [
+                                {
+                                    "title": "Overview",
+                                    "image": "https://media.discordapp.net/attachments/869526482916089896/938997208789946399/imageedit_3_7154758015.png",
+                                    "contents": "Something."
+                                },
+                                {
+                                    "title": "Mac Installation",
+                                    "image": "https://media.discordapp.net/attachments/869526482916089896/938997208789946399/imageedit_3_7154758015.png",
+                                    "contents": "Something."
+                                },
+                                {
+                                    "title": "Windows Installation",
+                                    "image": "https://media.discordapp.net/attachments/869526482916089896/938997208789946399/imageedit_3_7154758015.png",
+                                    "contents": "Something."
+                                },
+                                {
+                                    "title": "Start a New Spring Boot Project",
+                                    "image": "https://media.discordapp.net/attachments/869526482916089896/938997208789946399/imageedit_3_7154758015.png",
+                                    "contents": "Something."
+                                },
+                                {
+                                    "title": "Hello World",
+                                    "image": "https://media.discordapp.net/attachments/869526482916089896/938997208789946399/imageedit_3_7154758015.png",
+                                    "contents": "Something."
+                                },
+                                {
+                                    "title": "@RestController and Annotations",
+                                    "image": "https://media.discordapp.net/attachments/869526482916089896/938997208789946399/imageedit_3_7154758015.png",
+                                    "contents": "Something."
+                                },
+                                {
+                                    "title": "Routing",
+                                    "image": "https://media.discordapp.net/attachments/869526482916089896/938997208789946399/imageedit_3_7154758015.png",
+                                    "contents": "Something."
+                                },
+                                {
+                                    "title": "Daikichi Routes",
+                                    "image": "https://media.discordapp.net/attachments/869526482916089896/938997208789946399/imageedit_3_7154758015.png",
+                                    "contents": "Something."
+                                },
+                                {
+                                    "title": "Query Parameters",
+                                    "image": "https://media.discordapp.net/attachments/869526482916089896/938997208789946399/imageedit_3_7154758015.png",
+                                    "contents": "Something."
+                                },
+                                {
+                                    "title": "Hello Human",
+                                    "image": "https://media.discordapp.net/attachments/869526482916089896/938997208789946399/imageedit_3_7154758015.png",
+                                    "contents": "Something."
+                                },
+                                {
+                                    "title": "URLs & @PathVariables",
+                                    "image": "https://media.discordapp.net/attachments/869526482916089896/938997208789946399/imageedit_3_7154758015.png",
+                                    "contents": "Something."
+                                },
+                                {
+                                    "title": "Daikichi Path Variables",
+                                    "image": "https://media.discordapp.net/attachments/869526482916089896/938997208789946399/imageedit_3_7154758015.png",
+                                    "contents": "Something."
+                                },
+                                {
+                                    "title": "Spring Boot Templating",
+                                    "image": "https://media.discordapp.net/attachments/869526482916089896/938997208789946399/imageedit_3_7154758015.png",
+                                    "contents": "Something."
+                                },
+                                {
+                                    "title": "Java Server Pages (JSPs)",
+                                    "image": "https://media.discordapp.net/attachments/869526482916089896/938997208789946399/imageedit_3_7154758015.png",
+                                    "contents": "Something."
+                                },
+                                {
+                                    "title": "JSTL Tags",
+                                    "image": "https://media.discordapp.net/attachments/869526482916089896/938997208789946399/imageedit_3_7154758015.png",
+                                    "contents": "Something."
+                                },
+                                {
+                                    "title": "Rendering with @Controller",
+                                    "image": "https://media.discordapp.net/attachments/869526482916089896/938997208789946399/imageedit_3_7154758015.png",
+                                    "contents": "Something."
+                                },
+                                {
+                                    "title": "More On Rendering Data",
+                                    "image": "https://media.discordapp.net/attachments/869526482916089896/938997208789946399/imageedit_3_7154758015.png",
+                                    "contents": "Something."
+                                },
+                                {
+                                    "title": "Hopper's Receipt",
+                                    "image": "https://media.discordapp.net/attachments/869526482916089896/938997208789946399/imageedit_3_7154758015.png",
+                                    "contents": "Something."
+                                },
+                                {
+                                    "title": "Adding Static Content (CSS & JS)",
+                                    "image": "https://media.discordapp.net/attachments/869526482916089896/938997208789946399/imageedit_3_7154758015.png",
+                                    "contents": "Something."
+                                },
+                                {
+                                    "title": "Bootstrap",
+                                    "image": "https://media.discordapp.net/attachments/869526482916089896/938997208789946399/imageedit_3_7154758015.png",
+                                    "contents": "Something."
+                                },
+                                {
+                                    "title": "Display Date",
+                                    "image": "https://media.discordapp.net/attachments/869526482916089896/938997208789946399/imageedit_3_7154758015.png",
+                                    "contents": "Something."
+                                },
+                                {
+                                    "title": "JSTL Loops and You",
+                                    "image": "https://media.discordapp.net/attachments/869526482916089896/938997208789946399/imageedit_3_7154758015.png",
+                                    "contents": "Something."
+                                },
+                                {
+                                    "title": "Fruity Loops",
+                                    "image": "https://media.discordapp.net/attachments/869526482916089896/938997208789946399/imageedit_3_7154758015.png",
+                                    "contents": "Something."
+                                },
+                                {
+                                    "title": "Session",
+                                    "image": "https://media.discordapp.net/attachments/869526482916089896/938997208789946399/imageedit_3_7154758015.png",
+                                    "contents": "Something."
+                                },
+                                {
+                                    "title": "Session in Java",
+                                    "image": "https://media.discordapp.net/attachments/869526482916089896/938997208789946399/imageedit_3_7154758015.png",
+                                    "contents": "Something."
+                                },
+                                {
+                                    "title": "Counter",
+                                    "image": "https://media.discordapp.net/attachments/869526482916089896/938997208789946399/imageedit_3_7154758015.png",
+                                    "contents": "Something."
+                                },
+                                {
+                                    "title": "Form Submission",
+                                    "image": "https://media.discordapp.net/attachments/869526482916089896/938997208789946399/imageedit_3_7154758015.png",
+                                    "contents": "Something."
+                                },
+                                {
+                                    "title": "GET vs. POST",
+                                    "image": "https://media.discordapp.net/attachments/869526482916089896/938997208789946399/imageedit_3_7154758015.png",
+                                    "contents": "Something."
+                                },
+                                {
+                                    "title": "POST & Redirecting",
+                                    "image": "https://media.discordapp.net/attachments/869526482916089896/938997208789946399/imageedit_3_7154758015.png",
+                                    "contents": "Something."
+                                },
+                                {
+                                    "title": "Omikuji Form",
+                                    "image": "https://media.discordapp.net/attachments/869526482916089896/938997208789946399/imageedit_3_7154758015.png",
+                                    "contents": "Something."
+                                },
+                                {
+                                    "title": "Flash Data",
+                                    "image": "https://media.discordapp.net/attachments/869526482916089896/938997208789946399/imageedit_3_7154758015.png",
+                                    "contents": "Something."
+                                },
+                                {
+                                    "title": "Ninja Gold Game",
+                                    "image": "https://media.discordapp.net/attachments/869526482916089896/938997208789946399/imageedit_3_7154758015.png",
+                                    "contents": "Something."
+                                },
+                                {
+                                    "title": "Dependency Injection",
+                                    "image": "https://media.discordapp.net/attachments/869526482916089896/938997208789946399/imageedit_3_7154758015.png",
+                                    "contents": "Something."
+                                },
+                                {
+                                    "title": "Chapter Survey",
+                                    "image": "https://media.discordapp.net/attachments/869526482916089896/938998076767621220/imageedit_5_4487051810.png",
+                                    "contents": "Something."
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Spring MVC",
+                            "subsection": [
+                                {
+                                    "title": "Singly Linked List",
+                                    "image": "https://media.discordapp.net/attachments/869526482916089896/938997208789946399/imageedit_3_7154758015.png",
+                                    "contents": "Something."
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Adding One-to-Many",
+                            "subsection": [
+                                {
+                                    "title": "Singly Linked List",
+                                    "image": "https://media.discordapp.net/attachments/869526482916089896/938997208789946399/imageedit_3_7154758015.png",
+                                    "contents": "Something."
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Full Spring",
+                            "subsection": [
+                                {
+                                    "title": "Singly Linked List",
+                                    "image": "https://media.discordapp.net/attachments/869526482916089896/938997208789946399/imageedit_3_7154758015.png",
+                                    "contents": "Something."
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Spring Security",
+                            "subsection": [
+                                {
+                                    "title": "Singly Linked List",
+                                    "image": "https://media.discordapp.net/attachments/869526482916089896/938997208789946399/imageedit_3_7154758015.png",
+                                    "contents": "Something."
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Advanced Quaries",
+                            "subsection": [
+                                {
+                                    "title": "Singly Linked List",
+                                    "image": "https://media.discordapp.net/attachments/869526482916089896/938997208789946399/imageedit_3_7154758015.png",
+                                    "contents": "Something."
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Spring Exams (Optional)",
+                            "subsection": [
+                                {
+                                    "title": "Singly Linked List",
+                                    "image": "https://media.discordapp.net/attachments/869526482916089896/938997208789946399/imageedit_3_7154758015.png",
+                                    "contents": "Something."
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "image": "https://s3.amazonaws.com/General_V88/boomyeah2015/codingdojo/course_icons/mysql.png?1450147378",
+                    "title": "MySQL",
+                    "section": [
+                        {
+                            "title": "Intro to MySQL",
+                            "subsection": [
+                                {
+                                    "title": "Overview",
+                                    "image": "https://media.discordapp.net/attachments/869526482916089896/938997208789946399/imageedit_3_7154758015.png",
+                                    "contents": "Something."
+                                }
+                            ]
+                        },
+                        {
+                            "title": "ERD Lessons",
+                            "subsection": [
+                                {
+                                    "title": "Express + Mongoose",
+                                    "image": "https://media.discordapp.net/attachments/869526482916089896/938997208789946399/imageedit_3_7154758015.png",
+                                    "contents": "Something."
+                                }
+                            ]
+                        },
+                        {
+                            "title": "MySQL Queries",
+                            "subsection": [
+                                {
+                                    "title": "Express + Mongoose",
+                                    "image": "https://media.discordapp.net/attachments/869526482916089896/938997208789946399/imageedit_3_7154758015.png",
+                                    "contents": "Something."
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "image": "https://s3.amazonaws.com/General_V88/boomyeah2015/codingdojo/course_icons/workshop.png",
+                    "title": "Java Spring Deployment",
+                    "section": [
+                        {
+                            "title": "AWS Deployment",
+                            "subsection": [
+                                {
+                                    "title": "EC2 Set Up",
+                                    "image": "https://media.discordapp.net/attachments/869526482916089896/938997208789946399/imageedit_3_7154758015.png",
+                                    "contents": "Something."
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Belt Reviewer",
+                            "subsection": [
+                                {
+                                    "title": "Overview",
+                                    "image": "https://media.discordapp.net/attachments/869526482916089896/938997208789946399/imageedit_3_7154758015.png",
+                                    "contents": "Something."
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "image": "https://s3.amazonaws.com/General_V88/boomyeah2015/codingdojo/course_icons/trial.png",
+                    "title": "Projects",
+                    "section": [
+                        {
+                            "title": "Introduction",
+                            "subsection": [
+                                {
+                                    "title": "Web Sockets",
+                                    "image": "https://media.discordapp.net/attachments/869526482916089896/938997208789946399/imageedit_3_7154758015.png",
+                                    "contents": "Something."
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Process",
+                            "subsection": [
+                                {
+                                    "title": "Web Sockets",
+                                    "image": "https://media.discordapp.net/attachments/869526482916089896/938997208789946399/imageedit_3_7154758015.png",
+                                    "contents": "Something."
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Requirements",
+                            "subsection": [
+                                {
+                                    "title": "Web Sockets",
+                                    "image": "https://media.discordapp.net/attachments/869526482916089896/938997208789946399/imageedit_3_7154758015.png",
+                                    "contents": "Something."
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Presentations",
+                            "subsection": [
+                                {
+                                    "title": "Web Sockets",
+                                    "image": "https://media.discordapp.net/attachments/869526482916089896/938997208789946399/imageedit_3_7154758015.png",
+                                    "contents": "Something."
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Additional Resources",
+                            "subsection": [
+                                {
+                                    "title": "Web Sockets",
+                                    "image": "https://media.discordapp.net/attachments/869526482916089896/938997208789946399/imageedit_3_7154758015.png",
+                                    "contents": "Something."
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    }

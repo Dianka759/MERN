@@ -6,14 +6,14 @@
 
 .app {
   /* background-color: rgb(251, 251, 251) */
-  background-color: var(--background);
-}
+  background-color: var(--backgroundBack);}
 
 .top {
   display: flex;
   justify-content: center;
   width: 1500px;
   margin: 0 auto;
+  background-color: var(--backgroundBack);
   /* padding: 20px; */
 }
 
@@ -31,7 +31,7 @@
   justify-content: center;
   /* background-color: rgb(251, 251, 251); */
   margin: 0 30 0 30px;
-  background-color: var(--background);
+  background-color: var(--mainBackground);
 }
 
 .dash__container {
@@ -42,12 +42,12 @@
   /* padding: 20px; */
   box-shadow: var(--shadow);
   /* box-shadow: 0 8px 16px rgb(0 0 0 / 10%); */
-  background-color: var(--background);
+  background-color: var(--mainBackground);
 }
 
 .App {
   color: var(--text-primary);
-  background-color: var(--background);
+  background-color: var(--mainBackground);
   /* font-size: large;
   font-weight: bold; */
   /* padding: 20px; */
@@ -56,18 +56,12 @@
 }
 button {
   color: var(--text-primary);
-  background-color: var(--background);
+  background-color: var(--mainBackground);
   border: 2px var(--text-primary) solid;
   float: right;
   transition: all .5s;
 }
-
+/* 
 .oneChapter {
-  color: var(--text-primary);
-  background-color: var(--background);
-  font-size: large;
-  font-weight: bold;
-  padding: 20px;
-  height: calc(100vh - 0px);
-  transition: all .5s;
-}
+  height: calc(102vh - 40px)
+} */

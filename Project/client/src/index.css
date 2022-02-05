@@ -16,21 +16,29 @@ code {
 }
 
 :root {
+  --shadowSmollIcons: inset 0 0 5px #e5e5e5;
   --shadowSideBar: 0 4px 8px rgb(0 0 0 / 5%);
   --shadow: 0 8px 16px rgb(0 0 0 / 10%);
   --background: white;
+  --mainBackground: rgb(251, 251, 251);
   --text-primary: black;
   --text-secondary: royalblue;
   --headers: #152C61;
   --accent: purple;
+  --borderTop: .1rem solid rgba(21, 44, 97, .1);
+  --backgroundBack: white;
 }
 
 [data-theme='dark'] {
+  --shadowSmollIcons: inset 0 0 5px #3d3d3d;
   --shadowSideBar: 0 4px 8px rgba(248, 248, 248, 0.212);
   --shadow: 0 8px 16px rgba(255, 255, 255, 0.5);
   --background: rgb(32, 32, 32);
+  --mainBackground:  rgb(32, 32, 32);
   --text-primary: white;
   --text-secondary: grey;
   --headers: white;
   --accent: darkred;
+  --borderTop: .1rem solid rgb(70, 70, 70);
+  --backgroundBack: black;
 }
