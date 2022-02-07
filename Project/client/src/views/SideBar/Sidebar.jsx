@@ -1,23 +1,23 @@
 import React, { useEffect, useState } from 'react';
 import { Link, useHistory } from 'react-router-dom'
-import '../views/Sidebar.css'
-import SidebarRow from './SidebarRow';
+import './Sidebar.css'
+import SidebarRow from '../SideBarRow/SidebarRow';
 import ArrowRightIcon from '@mui/icons-material/ArrowRight';
 import 'bootstrap/dist/css/bootstrap.css'
 import axios from 'axios';
 
 const Sidebar = (props) => {
-    const {stacks} = props;
+    const { stacks } = props;
     const [stackName, setStackName] = useState("MERN")
     const history = useHistory();
 
     const onChangeHandler = (event) => {
         setStackName(event.target.value)
     }
-    
-    const onChapterSelect = ( chapterId ) => {
+
+    const onChapterSelect = (chapterId) => {
         console.log("I DID ZE THING, THE CLICKY CLICKY.")
-        history.push("/stacks/chapters/" +  chapterId)
+        history.push("/stacks/chapters/" + chapterId)
     }
 
 
@@ -56,31 +56,33 @@ const Sidebar = (props) => {
                 </div>
 
             </div>
-            {stacks.map((stack, idx) => {
-                return (
-                    <>
-                        {stack.stack.title === stackName
-                            ? <>
-                                {
-                                    stack.stack.chapter.map((chapter, idx) => {
-                                        return (
-                                            <>
-                                                <p onClick={() => onChapterSelect(chapter._id)}>
-                                                    <SidebarRow
-                                                    logo={<img src={chapter.image} />}
-                                                    title={chapter.title}
-                                                    score="0/16" />
+            <div className="image">
+                {stacks.map((stack, idx) => {
+                    return (
+                        <>
+                            {stack.stack.title === stackName
+                                ? <>
+                                    {
+                                        stack.stack.chapter.map((chapter, idx) => {
+                                            return (
+                                                <>
+                                                    <p onClick={() => onChapterSelect(chapter._id)}>
+                                                        <SidebarRow
+                                                            logo={<img src={chapter.image}/>}
+                                                            title={chapter.title}
+                                                            score="0/16" />
                                                     </p>
-                                            </>
-                                        )
-                                    })
-                                }
-                            </>
-                            : ""
-                        }
-                    </>
-                )
-            })}
+                                                </>
+                                            )
+                                        })
+                                    }
+                                </>
+                                : ""
+                            }
+                        </>
+                    )
+                })}
+            </div>
             {/* <SidebarRow
                 logo={<img src="https://s3.amazonaws.com/General_V88/boomyeah2015/codingdojo/course_icons/Arrays.png?1524468437" />}
                 title="Orientation"

@@ -1,21 +1,21 @@
 import React from 'react';
-import '../views/SubNavigation.css'
-import RotateLeftIcon from '@mui/icons-material/RotateLeft';
+import '../SubNavigationSingleChapter/SubNav_Chapter.css'
 import BookmarkIcon from '@mui/icons-material/Bookmark';
 import LiveTvIcon from '@mui/icons-material/LiveTv';
 import WarningAmberIcon from '@mui/icons-material/WarningAmber';
 import FormControlLabel from '@mui/material/FormControlLabel';
-import MaterialUISwitch from '../components/MaterialUISwitch'
-
-
-function SubNavigation(props) {
+import MaterialUISwitch from '../../components/MaterialUISwitch'
+function SubNav_Chapter(props) {
     const { switchTheme, theme } = props;
 
     return (
-        <div className='sub'>
+        <div className="sub">
             <div className='sub__left'>
-                <RotateLeftIcon className="rotate__icon" />
-                <p>Switch back to Classic Learn</p>
+                <a href="">Tracks</a>
+                <a href="">Course</a>
+                <a href="">Assignment Checklist</a>
+                <a href="">Belt Exam History</a>
+                <a href="">Take Exams</a>
             </div>
             <div className='sub__right'>
                 <BookmarkIcon />
@@ -29,8 +29,7 @@ function SubNavigation(props) {
                     />
                 </span>
             </div>
-        </div>
-    );
+        </div>);
 }
 
-export default SubNavigation;
+export default SubNav_Chapter;

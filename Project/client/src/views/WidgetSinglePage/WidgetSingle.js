@@ -1,13 +1,22 @@
 import React from 'react';
-import '../views/Widget.css'
-import Card from './Card';
+import '../Widget/Widget.css'
+import Card from '../Card/Card';
 
 function WidgetSingle(props) {
     const { contents } = props;
+
+    const click = (contents) => {
+        console.log(contents)
+    }
+
     return (
         <div>
-            {/* {contents} */}
-            <div className="widget_Single">
+            <div dangerouslySetInnerHTML={{__html: contents}}></div>               
+            
+            
+             {/* contents: {contents} */}
+
+            {/* <div className="widget_Single">
 
 
                 <p id="lesson_content">Rules</p>
@@ -17,11 +26,11 @@ function WidgetSingle(props) {
                     <img
                         src={"https://s3.us-east-1.amazonaws.com/General_V88/boomyeah2015/codingdojo/curriculum/content/chapter/1619804205__heylagostechie-kwzWjTnDPLk-unsplash.jpg"}
                     />
-                </div>
+                </div> */}
 
-                {/* </div> */}
+            {/* </div> */}
 
-                <ul id="rules_card">
+            {/* <ul id="rules_card">
                     <li>Be Present</li>
                     <li>Be Humble</li>
                     <li>Be Strength through Struggle</li>
@@ -52,10 +61,8 @@ function WidgetSingle(props) {
                     </li>
                 </ul>
             </div>
+        </div > */}
         </div >
-
-
-        // </div >
 
 
     );

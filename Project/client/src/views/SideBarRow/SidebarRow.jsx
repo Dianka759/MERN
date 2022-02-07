@@ -5,7 +5,7 @@ import "./SidebarRow.css"
 function SidebarRow(props) {
     return (
         <div>
-            <div className="sidebarRow" style={{ marginBottom: "20px" }}>
+            <div className="sidebarRow img" style={{ marginBottom: "20px" }}>
                 {props.logo}
                 <h4>{props.title} ({props.score})</h4>
             </div>

@@ -1,6 +1,6 @@
 import React from 'react';
 import { useHistory } from 'react-router-dom';
-import '../views/Card.css'
+import './Card.css'
 
 const Card = (props) => {
     const {id, src, title} = props;

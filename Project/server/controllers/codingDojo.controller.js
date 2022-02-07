@@ -29,17 +29,16 @@ module.exports.oneChapter = (request, response) => {
 }
 
 
+module.exports.updateStack = (req, res) => {
+    CodingDojo.findOneAndUpdate({ _id: req.params.id }, req.body, { new: true, runValidators: true })
+        .then(updatedStack => res.json({ user: updatedStack }))
+        .catch(err => res.json(err));
+};
 
 
 
 
 
-
-// module.exports.updatePet = (req, res) => {
-//     Pet.findOneAndUpdate({ _id: req.params.id }, req.body, { new: true, runValidators: true })
-//         .then(updatedPet => res.json({ user: updatedPet }))
-//         .catch(err => res.json(err));
-// };
 
 module.exports.deleteStack = (request, response) => {
     CodingDojo.deleteOne({ _id: request.params.id })

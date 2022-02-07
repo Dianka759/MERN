@@ -1,5 +1,5 @@
 import React from 'react';
-import '../views/Header.css'
+import './Header.css'
 import SearchIcon from '@mui/icons-material/Search';
 import { Button } from '@material-ui/core';
 import { Avatar } from '@mui/material';

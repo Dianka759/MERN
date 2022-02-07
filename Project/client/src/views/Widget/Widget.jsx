@@ -1,12 +1,12 @@
 import React from 'react';
-import '../views/Widget.css'
-import Card from './Card';
-import Banner from './Banner';
-import MERN from '../img/MERN.png'
-import Python from '../img/Python.png'
-import career from '../img/career.png'
-import WebFund from '../img/WebFund.png'
-import Java from '../img/Java.png'
+import './Widget.css'
+import Card from '../Card/Card';
+import Banner from '../Banner/Banner';
+import MERN from '../../img/MERN.png'
+import Python from '../../img/Python.png'
+import career from '../../img/career.png'
+import WebFund from '../../img/WebFund.png'
+import Java from '../../img/Java.png'
 
 const Widget = (props) => {
     const { stacks } = props;

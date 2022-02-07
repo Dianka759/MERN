@@ -4,6 +4,7 @@ import SectionContainer from './SectionContainer';
 
 // import { ExpandMore } from '@material-ui/icons';
 import { Accordion, AccordionSummary, AccordionDetails } from '@material-ui/core';
+import WidgetSingle from '../views/WidgetSinglePage/WidgetSingle';
 
 
 const Collapsible = (props) => {
@@ -18,12 +19,12 @@ const Collapsible = (props) => {
         setCurrentSection("")
     }
 
-    const showContents = (title, subsectiontitle) => {
+    const showContents = (title, subSectionTitle) => {
         if (clicked2 === false) {
             setClicked2(clicked2 = !clicked2)
         }
         setCurrentSection(title)
-        setCurrentSubSection(subsectiontitle)
+        setCurrentSubSection(subSectionTitle)
     }
 
     const createMarkUp = (info) => {
@@ -52,8 +53,11 @@ const Collapsible = (props) => {
                                                                 {section.subsection.map((contents, idx) => {
                                                                     return (
                                                                         <>
+                                                                        
                                                                             <div className='float-right'>
-                                                                                <div dangerouslySetInnerHTML={createMarkUp(contents)} />
+                                                                                
+                                                                                {/* <div dangerouslySetInnerHTML={createMarkUp(contents)} /> */}
+                                                                                {/* <WidgetSingle contents={contents}></WidgetSingle> */}
                                                                             </div>
                                                                         </>
                                                                         // <div key={idx} className='text-danger'><img src={contents.image} alt="subsection icon" height={"20px"}></img>{contents.title}</div>

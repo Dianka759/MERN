@@ -2,8 +2,8 @@ import React, { useEffect, useState } from 'react'
 
 import { Link } from 'react-router-dom';
 import axios from 'axios';
-import ChapterList from "../components/ChapterList"
-import Contents from '../components/Contents';
+import ChapterList from '../components/ChapterList';
+import Contents from '../../components/Contents';
 
 const Navigation = (props) => {
 

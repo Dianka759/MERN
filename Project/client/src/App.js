@@ -1,23 +1,18 @@
 import React from 'react';
 import useLocalStorage from 'use-local-storage';
-
-
-import Header from './views/Header';
-import { ThemeProvider, createTheme } from '@material-ui/core/styles'
-import SubNavigation from './views/SubNavigation';
-import Sidebar from './views/Sidebar'
-import Widget from './views/Widget';
+import { useEffect, useState } from 'react';
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
+import axios from 'axios';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
 
-import OneChapter from './views/OneChapter';
-import OneStack from './views/OneStack';
+import Main from './views/Main/Main';
+import Header from './views/Header/Header';
+import SubNavigation from './views/SubNavigation/SubNavigation';
+import Sidebar from './views/SideBar/Sidebar'
+import Widget from './views//Widget/Widget';
 import Navigation from './components/ChapterList';
-import { useEffect, useState } from 'react';
-import axios from 'axios';
 import Stringifier from './components/Stringifier';
-import Main from './views/Main';
 import DisplayHTML from './components/DisplayHTML';
 
 function App() {
@@ -48,14 +43,10 @@ function App() {
         {/* <Switch> */}
         <Route exact path="/">
           <div className="app">
-            {/* <ThemeProvider theme={theme}> */}
             <div className="top">
               <Header />
             </div>
             <div className="middle">
-              {/* <button onClick={switchTheme}>
-                Switch to {theme === 'light' ? 'Dark' : "Light"}
-              </button> */}
               <SubNavigation switchTheme={switchTheme} theme={theme} />
             </div>
             <div className="container">
@@ -64,9 +55,7 @@ function App() {
                 <Widget stacks={stacks} />
               </div>
             </div>
-            {/* </ThemeProvider> */}
           </div>
-          {/* <AllStacks /> */}
         </Route>
 
 

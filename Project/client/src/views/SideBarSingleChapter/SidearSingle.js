@@ -1,17 +1,18 @@
 import axios from 'axios';
 import React, { useEffect, useState } from 'react';
 import { useParams } from 'react-router-dom';
-import Collapsible from '../components/Collapsible';
-import CustomAccordion from '../components/CustomAccordion';
-import '../views/Sidebar.css'
-import SidebarRowSingle from './SidebarRowSingle';
-import WidgetSingle from './WidgetSingle';
+import Collapsible from '../../components/Collapsible';
+import CustomAccordion from '../../components/CustomAccordion';
+import '../SideBar/Sidebar.css'
+import SidebarRowSingle from '../SideBarRowSingleChapter/SidebarRowSingle';
+import WidgetSingle from '../WidgetSinglePage/WidgetSingle';
 
 function SidebarSingle(props) {
     const { chapterID } = useParams();
     const [stack, setStack] = useState([]);
     const [loaded, setLoaded] = useState(false)
     const [contents, setContents] = useState("Course Overview");
+    const {setContentsToParent} = props;
 
     useEffect(() => {
         axios.get('http://localhost:8000/api/stacks/chapters/' + chapterID)
@@ -25,6 +26,7 @@ function SidebarSingle(props) {
 
     const exampleFunction = (contentFromChild) => {
         setContents(contentFromChild)
+        setContentsToParent(contentFromChild);
     }
 
     return (
