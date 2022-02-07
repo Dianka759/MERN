@@ -9,9 +9,6 @@ In the project directory, you can run:
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
 ### 
 ![This is an image](https://media.discordapp.net/attachments/911095800334016575/940352581832687656/Screenshot_2022-02-07_155523.png?width=1193&height=583)
 
