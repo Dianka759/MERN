@@ -53,7 +53,7 @@
 
 ![Coding Dojo, better.](https://media.discordapp.net/attachments/911095800334016575/940352581832687656/Screenshot_2022-02-07_155523.png?width=1193&height=583)
 
-Recreation of the Coding Dojo Learn Platform website. 
+<p align="center"> Recreation of the Coding Dojo Learn Platform website. </p>
 
 
 <p align="right">(<a href="#top">back to top</a>)</p>
