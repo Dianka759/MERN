@@ -53,7 +53,7 @@
 
 ![Coding Dojo, better.](https://media.discordapp.net/attachments/911095800334016575/940352581832687656/Screenshot_2022-02-07_155523.png?width=1193&height=583)
 
-<p align="center"> Coding Dojo Clone is a clone application duplicating the Coding Dojo Website which is a the learning platform for the Coding Dojo bootcamp. It incorporates full-stack web development using MERN (MongoDB, Express, React.js, and Node.js). Implemented object-oriented design with mongoose to create and store stack information in MongoDB and employed RESTful backend routing with express server from CRUD commands. Created dark mode and light mode features using Javascript and CSS.
+<p align="center"> Coding Dojo Clone is a clone application duplicating the Coding Dojo Website which is the learning platform for the Coding Dojo bootcamp. It incorporates full-stack web development using MERN (MongoDB, Express, React.js, and Node.js). Implemented object-oriented design with mongoose to create and store stack information in MongoDB and employed RESTful backend routing with express server from CRUD commands. Created dark mode and light mode features using Javascript and CSS.
  </p>
 
 
