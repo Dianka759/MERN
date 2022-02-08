@@ -17,7 +17,7 @@ function Main(props) {
     const [theme, setTheme] = useLocalStorage('theme', defaultDark ? 'dark' : 'light')
 
     const { stacks } = props;
-    const [contents, setContents] = useState("");
+    const [contents, setContents] = useState("Rules");
 
     const switchTheme = () => {
         const newTheme = theme === 'light' ? 'dark' : 'light';

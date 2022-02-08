@@ -12,7 +12,7 @@ const Card = (props) => {
 
     return (
         <div className="card" onClick={onClickHandler}>
-            <img src={src} alt="card" style={{objectFit: "none", objectPosition: "1% 8%"}}/>
+            <img src={src} alt="card" style={{objectFit: "none", objectPosition: "0% 0%"}}/>
             <div className="card__title">
                 <p>{title}</p>
             </div>

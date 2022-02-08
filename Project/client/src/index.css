@@ -1,4 +1,6 @@
-
+#root {
+  background-color: var(--backgroundBack);
+}
 
 body {
   margin: 0;
@@ -15,7 +17,7 @@ code {
     monospace;
 }
 
-:root {
+:root, html {
   --shadowSmollIcons: inset 0 0 5px #e5e5e5;
   --shadowSideBar: 0 4px 8px rgb(0 0 0 / 5%);
   --shadow: 0 8px 16px rgb(0 0 0 / 10%);

@@ -64,3 +64,9 @@
 .widget_Single {
     padding: 30px;
 }
+
+.lesson_image {
+    height: 337px;
+    /* width: 506px; */
+    width: 50%;
+}

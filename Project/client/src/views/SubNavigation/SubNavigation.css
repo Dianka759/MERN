@@ -35,8 +35,11 @@
 .sub__right>.MuiSvgIcon-root {
     color: #2C6BFF;
     box-shadow: var(--shadowSmollIcons);
-    border-radius: 10px;
+    border-radius: 40%;
     transform: scale(1.2);
+    width: 30px;
+    height: 30px;
+    padding: 5px;
 }
 
 .toggle>.MuiSvgIcon-root {

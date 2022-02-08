@@ -5,16 +5,10 @@ import Card from '../Card/Card';
 function WidgetSingle(props) {
     const { contents } = props;
 
-    const click = (contents) => {
-        console.log(contents)
-    }
-
     return (
-        <div>
-            <div dangerouslySetInnerHTML={{__html: contents}}></div>               
-            
-            
-             {/* contents: {contents} */}
+        <div style={{ backgroundColor: 'var(--mainBackground)' }} >
+                <div className="p-5" dangerouslySetInnerHTML={{ __html: contents }}></div>
+
 
             {/* <div className="widget_Single">
 

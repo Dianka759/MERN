@@ -19,8 +19,8 @@ function SubNavigation(props) {
             </div>
             <div className='sub__right'>
                 <BookmarkIcon />
-                <LiveTvIcon ></LiveTvIcon>
-                <WarningAmberIcon ></WarningAmberIcon>
+                <LiveTvIcon />
+                <WarningAmberIcon />
                 <span className="toggle">
                     <FormControlLabel
                         onClick={switchTheme}

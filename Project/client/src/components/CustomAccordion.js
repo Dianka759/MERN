@@ -2,7 +2,7 @@ import React, { useState, Fragment } from 'react'
 import ReactDOM from 'react-dom';
 import SectionContainer from './SectionContainer';
 
-// import { ExpandMore } from '@material-ui/icons';
+import { ExpandMore } from '@material-ui/icons';
 import { Accordion, AccordionSummary, AccordionDetails } from '@material-ui/core';
 import { borderTop } from '@mui/system';
 
@@ -18,11 +18,11 @@ function CustomAccordion(props) {
 
     return (
         <div>
-            <p> {chapterTitle}</p>
+            <p className="text-center"> {chapterTitle}</p>
             {section.map((section, idx) => {
                 return (
                     <Accordion>
-                        <AccordionSummary >
+                        <AccordionSummary  expandIcon={<ExpandMore />}>
                             {section.title}
                         </AccordionSummary>
                         {section.subsection.map((contents, idx) => {
