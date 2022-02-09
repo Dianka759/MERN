@@ -6,7 +6,7 @@
 
 .main {
     background-color: var(--backgroundBack);
-    height: 110%;
+    min-height: 88.9vh;
 }
 
 .top {
@@ -30,14 +30,14 @@
     flex-direction: column;
     justify-content: center;
     background-color: var(--backgroundBack);  
-     margin: 0 30 0 30px;
+    margin: 0 30 0 30px;
 }
 
 .dash__container {
     color: var(--headers);
     height: 100%;
     display: flex;
-    /* background-color:var(--background); */
+    background-color:var(--backBackground);
     align-items: flex-start;
     margin: 20px;
     /* padding: 20px; */

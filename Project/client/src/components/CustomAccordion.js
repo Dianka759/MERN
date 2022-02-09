@@ -21,8 +21,8 @@ function CustomAccordion(props) {
             <p className="text-center"> {chapterTitle}</p>
             {section.map((section, idx) => {
                 return (
-                    <Accordion>
-                        <AccordionSummary  expandIcon={<ExpandMore />}>
+                    <Accordion style={{backgroundColor:"var(--background)", color:"var(--text-primary)"}}>
+                        <AccordionSummary expandIcon={<ExpandMore style={{color:"var(--text-primary)"}} />}>
                             {section.title}
                         </AccordionSummary>
                         {section.subsection.map((contents, idx) => {
