@@ -148,5 +148,5 @@ npm install -g nodemon
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 
-~~we added tomatos into this resourceful front end experience by encouraging crop growth through a super vitality npm install fertilizer
+~~we added tomatos into this resourceful front end experience by encouraging crop growth through a super vitality npm install fertilizer~~
 
