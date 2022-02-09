@@ -53,7 +53,7 @@
 
 ![Coding Dojo, better.](https://media.discordapp.net/attachments/911095800334016575/940352581832687656/Screenshot_2022-02-07_155523.png?width=1193&height=583)
 
-<p align="center"> Coding Dojo Clone is a clone application duplicating the Coding Dojo Website which is the learning platform for the Coding Dojo bootcamp. It incorporates full-stack web development using MERN (MongoDB, Express, React.js, and Node.js). Implemented object-oriented design with mongoose to create and store stack information in MongoDB and employed RESTful backend routing with express server from CRUD commands. Created dark mode and light mode features using Javascript and CSS.
+<p align="center"> Coding Dojo Clone is a clone application duplicating the Coding Dojo Website which is the learning platform for the Coding Dojo bootcamp. It incorporates full-stack web development using MERN (MongoDB, Express, React.js, and Node.js). Implemented object-oriented design with mongoose to create and store stack information in MongoDB and employed RESTful backend routing with express server. Created dark mode and light mode features using Javascript and CSS.
  </p>
 
 
@@ -72,6 +72,7 @@
 * [MongoDB](https://www.mongodb.com/)
 * [Mongoose](https://mongoosejs.com/)
 * [Express](https://expressjs.com/)
+* [Node.js](https://nodejs.org/en/)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -87,6 +88,10 @@
 * npm
   ```sh
   npm install npm@latest -g
+  ```
+* nodemon 
+  ``` sh
+npm install -g nodemon
   ```
 
 <div align="center">
@@ -129,19 +134,21 @@
 <b> README features </b>
 - [ ] Add a Live Demo
 - [ ] Add a bug report feature
-- [ ] Add a 'report problem' feature
+- [ ] Add a request feature
 
 
 <b> Project features </b>
 - [ ] Correctly Display subsection contents on the page
 - [ ] Correct Dark Mode CSS
 - [ ] Add more stacks
+- [ ] add an inspirational Quotes API 
 
 
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 
+~~we added tomatos into this resourceful front end experience by encouraging crop growth through a super vitality npm install fertilizer~~
 
 "# CodingDojoClone" 
 "# CodingDojoClone" 
