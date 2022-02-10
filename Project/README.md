@@ -1,6 +1,6 @@
 ![Contributors](https://img.shields.io/badge/Contributors-4-red)
 
-> **[Jennifer Ehala](https://github.com/jenniferehala), [Diana Krawczyk](https://github.com/Dianka759), [Joe Lemay](https://github.com/joelemm17), [Violet Szewczyk](https://github.com/VioletMaria)**
+> **[Jennifer Ehala](https://github.com/jenniferehala), [Diana Krawczyk](https://github.com/Dianka759), [Violet Szewczyk](https://github.com/VioletMaria)**
 
 ##
 
@@ -11,7 +11,7 @@
   <h3 align="center">The Coding Dojo Clone</h3>
 
   <p align="center">
-    A group project of four graduates of the Coding Dojo Bootcamp.
+    A group project of three graduates of the Coding Dojo Bootcamp.
     <br />
     <br />
     (SOON TO COME:
@@ -90,7 +90,7 @@
   npm install npm@latest -g
   ```
 * nodemon 
-  ``` sh
+ ```sh
 npm install -g nodemon
   ```
 
@@ -150,5 +150,5 @@ npm install -g nodemon
 
 ~~we added tomatos into this resourceful front end experience by encouraging crop growth through a super vitality npm install fertilizer~~
 
-"# CodingDojoClone" 
-"# CodingDojoClone" 
+"#CodingDojoClone"
+
