@@ -91,8 +91,8 @@
   ```
 * nodemon 
  ```sh
-npm install -g nodemon
-  ```
+ npm install -g nodemon
+ ```
 
 <div align="center">
 
