@@ -1,4 +1,4 @@
-![Contributors](https://img.shields.io/badge/Contributors-4-red)
+![Contributors](https://img.shields.io/badge/Contributors-3-red)
 
 > **[Jennifer Ehala](https://github.com/jenniferehala), [Diana Krawczyk](https://github.com/Dianka759), [Violet Szewczyk](https://github.com/VioletMaria)**
 
